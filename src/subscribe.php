@@ -40,9 +40,9 @@ function syncMailchimp($data) {
     $result_json = json_decode($result);
     
     if($result_json->status == 400){
-        echo "400";
+        echo "false";
     }else{
-        echo "SUCCESS";
+        echo "true";
     }
     
 }

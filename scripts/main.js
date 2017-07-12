@@ -1,8 +1,7 @@
 $(document).ready(function(){
     
-   new Clipboard('#footer .box span.mail');
-   
-   
+    new Clipboard('#footer .box span.mail');
+    
     $('form#news').on('submit', function(e){
       e.preventDefault();
       e.stopPropagation();
@@ -14,10 +13,14 @@ $(document).ready(function(){
          method: 'POST',
          data: $(form).serialize(),
          success: function(data){
-               console.log(data);
+               if(data == 'false'){
+                   alert('Algo deu errado!');
+               }else{
+                   alert('Email cadastrado com sucesso!');
+               }
             }
       });
       
-   });
+    });
     
 });

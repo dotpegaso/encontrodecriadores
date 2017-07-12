@@ -220,7 +220,7 @@
     <footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!--<script src="node_modules/parallax-js/dist/parallax.min.js"></script>-->
-        <script src="node_modules/clipboard/dist/clipboard.min.js"></script>
+        <script src="scripts/clipboard.min.js"></script>
         <script src="scripts/main.js"></script>
         <script src="scripts/navbar.js"></script>
         <script type="text/javascript" src="scripts/home.js"></script>
