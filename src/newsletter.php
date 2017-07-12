@@ -6,4 +6,5 @@
         <input type="email" name="email" required/>
         <input type="submit" value="Eu quero!"/>
     </form>
+    <div class="response"></div>
 </section>
