@@ -37,9 +37,12 @@ function syncMailchimp($data) {
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
 
-    echo($result);
-    echo('QUEBRA');
-    echo($result->status);
+    $result_json = json_decode($result);
+    if($result_json->status == 400){
+        echo("400");
+    }else{
+        echo("CADASTROU");
+    }
     
     return $httpCode;
 }
