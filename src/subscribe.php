@@ -13,7 +13,7 @@ function syncMailchimp($data) {
 
     $memberId = md5(strtolower($data['email']));
     $dataCenter = substr($apiKey,strpos($apiKey,'-')+1);
-    $url = 'https://' . $dataCenter . '.api.mailchimp.com/3.0/lists/' . $listId . '/members/';
+    $url = 'https://' . $dataCenter . '.api.mailchimp.com/3.0/lists/' . $listId . '/members/' . $memberId;
 
     $json = json_encode([
         'email_address' => $data['email'],
@@ -34,6 +34,7 @@ function syncMailchimp($data) {
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
 
+    echo($result);
     return $httpCode;
 }
 
