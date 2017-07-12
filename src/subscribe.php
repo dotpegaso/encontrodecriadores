@@ -39,7 +39,7 @@ function syncMailchimp($data) {
 
     echo($result);
     echo('QUEBRA');
-    echo($result['data']);
+    echo($result->status);
     
     return $httpCode;
 }
