@@ -13,17 +13,17 @@ $(document).ready(function(){
          method: 'POST',
          data: $(form).serialize(),
          success: function(data){
-               if(data == 'false'){
-                   $('#newsletter .response').addClass('fail', function(){
-                       $(this).html('Algo deu errado! :(');
-                       $(this).show();
-                   });
-               }else{
-                   $('#newsletter .response').addClass('success', function(){
-                       $(this).html('Email cadastrado com sucesso! :)');
-                       $(this).show();
-                   });
-               }
+                var div = $('#newsletter .response');
+                
+                if(data == 'false'){
+                    $(div).addClass('fail');
+                    $(div).html('Algo deu errado! :(');
+                    $(div).show();
+                }else{
+                    $(div).addClass('success');
+                    $(div).html('Email cadastrado com sucesso! :)');
+                    $(div).show();
+                }
             }
       });
       
