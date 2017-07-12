@@ -1,15 +1,17 @@
 <?php
 
+// Adiciona um email X em uma lista de email Y do MailChimp
+
 $data = [
-    'email'     => $_POST['email'],
-    'status'    => 'subscribed'
+    'email'     => $_POST['email'], // recebe o email
+    'status'    => 'subscribed' // possíveis status: subscribed, unsubscribed, cleaned, pending
 ];
 
 syncMailchimp($data);
 
 function syncMailchimp($data) {
     $apiKey = '742f8e45abcdcd25b9d8299ae54adc3e-us16';
-    $listId = 'e8fdb4a991';
+    $listId = 'e8fdb4a991'; // id da lista que deverá receber o email
 
     $memberId = md5(strtolower($data['email']));
     $dataCenter = substr($apiKey,strpos($apiKey,'-')+1);
@@ -17,7 +19,8 @@ function syncMailchimp($data) {
 
     $json = json_encode([
         'email_address' => $data['email'],
-        'status'        => $data['status'] // "subscribed","unsubscribed","cleaned","pending"
+        'status'        => $data['status'] 
+        // referência completa: http://developer.mailchimp.com/documentation/mailchimp/reference/lists/members
     ]);
 
     $ch = curl_init($url);
@@ -34,7 +37,7 @@ function syncMailchimp($data) {
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
 
-    echo($result);
+    echo($result->status);
     return $httpCode;
 }
 
