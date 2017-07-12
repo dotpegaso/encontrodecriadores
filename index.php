@@ -23,11 +23,6 @@
         </div>
     </section>
 
-    <!--<section id="disclaimer">-->
-    <!--    <p>Dedicado para o crescimento da <em>economia criativa</em>-->
-    <!--    </p>-->
-    <!--</section>-->
-
     <section id="lastEvent">
         <h1>Se liga como foi_</h1>
         <div class="video">

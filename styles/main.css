@@ -484,3 +484,22 @@ section:not(:first-of-type) > h1:before{
     border: none;
     cursor: pointer;
 }
+
+#newsletter .response{
+    width: 300px;
+    margin: 0 auto;
+    padding: 8px 0;
+    border-radius: 8px;
+    font-size: .8em;
+    box-shadow: 0px 3px 10px rgba(0,0,0, .1);
+    display: none;
+}
+
+#newsletter .response.success{
+    background: #FFF;
+}
+
+#newsletter .responde.fail{
+    background: #ce2525;
+    color: #FFF;
+}

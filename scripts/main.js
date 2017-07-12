@@ -14,9 +14,15 @@ $(document).ready(function(){
          data: $(form).serialize(),
          success: function(data){
                if(data == 'false'){
-                   alert('Algo deu errado!');
+                   $('#newsletter .response').addClass('fail', function(){
+                       $(this).html('Algo deu errado! :(');
+                       $(this).show();
+                   });
                }else{
-                   alert('Email cadastrado com sucesso!');
+                   $('#newsletter .response').addClass('success', function(){
+                       $(this).html('Email cadastrado com sucesso! :)');
+                       $(this).show();
+                   });
                }
             }
       });
