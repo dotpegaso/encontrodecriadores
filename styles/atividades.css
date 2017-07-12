@@ -1,0 +1,15 @@
+#atividades #container .box .content{
+    position: relative;
+}
+
+#atividades #container .box .content .overlay{
+    position: absolute;
+    background: red;
+}
+
+#atividades #container .box .content{
+    background: #FFF;
+    padding: 40px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px rgba(0,0,0, .1);
+}
