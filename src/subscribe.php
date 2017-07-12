@@ -38,13 +38,13 @@ function syncMailchimp($data) {
     curl_close($ch);
 
     $result_json = json_decode($result);
+    
     if($result_json->status == 400){
-        echo("400");
+        return "400";
     }else{
-        echo("CADASTROU");
+        return "SUCESS";
     }
     
-    return $httpCode;
 }
 
 ?>
