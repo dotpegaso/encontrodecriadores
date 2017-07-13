@@ -14,13 +14,13 @@
         $sql = "INSERT INTO programacao (descricao, horario, inscritos, nome, responsavel)
         VALUES ('TesteDescricao', 14, 0, 'Show Matanza', 'John Cena')";
         
-        if ($conn->query($sql) === TRUE) {
+        if ($connection->query($sql) === TRUE) {
             echo "New record created successfully";
         } else {
-            echo "Error: " . $sql . "<br>" . $conn->error;
+            echo "Error: " . $sql . "<br>" . $connection->error;
         }
         
-        $conn->close();
+        $connection->close();
         
     }
     catch(Exception $e)
