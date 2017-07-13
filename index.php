@@ -18,7 +18,7 @@
         <h1 class="pre-load">Plataforma <em>multicultural</em> de criatividade</h1>
         <h1 class="pos-load">Plataforma <em>multicultural</em> de criatividade</h1>
         <div class="calendar">
-            <p>Próximoo evento</p>
+            <p>Próximo evento</p>
             <p class="date link">Setembro</p>
         </div>
     </section>
@@ -45,11 +45,11 @@
         <div class="container">
             <div class="flex">
 
-                <a href="mailto:">
+                <a href="https://www.instagram.com/estudioarcanozero/" target="_blank">
                     <div class="person">
                         <div class="box">
                             <div class="hover">
-                                <img src="/res/twitter.svg"></img>
+                                <img src="/res/instagram_white.svg"></img>
                             </div>
                         </div>
                         <p class="name">Rachel Midori</p>
@@ -62,11 +62,11 @@
                     </div>
                 </a>
 
-                <a href="mailto:">
+                <a href="https://www.instagram.com/felipeseguro/" target="_blank">
                     <div class="person">
                         <div class="box">
                             <div class="hover">
-                                <img src="/res/twitter.svg"></img>
+                                <img src="/res/instagram_white.svg"></img>
                             </div>
                         </div>
                         <p class="name">Felipe Seguro</p>
@@ -96,11 +96,11 @@
                     </div>
                 </a>
 
-                <a href="mailto:">
+                <a href="https://www.facebook.com/profile.php?id=100002181630064" target="_blank">
                     <div class="person">
                         <div class="box">
                             <div class="hover">
-                                <img src="/res/twitter.svg"></img>
+                                <img src="/res/facebook_icon.svg"></img>
                             </div>
                         </div>
                         <p class="name">Marcos Vinicius</p>
@@ -113,11 +113,11 @@
                     </div>
                 </a>
 
-                <a href="mailto:">
+                <a href="https://www.instagram.com/estudioarcanozero/" target="_blank">
                     <div class="person">
                         <div class="box">
                             <div class="hover">
-                                <img src="/res/twitter.svg"></img>
+                                <img src="/res/instagram_white.svg"></img>
                             </div>
                         </div>
                         <p class="name">Renan Vilela</p>

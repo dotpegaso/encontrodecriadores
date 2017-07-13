@@ -490,15 +490,13 @@ section:not(:first-of-type) > h1:before{
     margin: 0 auto;
     padding: 13px 0;
     border-radius: 8px;
-    box-shadow: 0px 3px 10px rgba(0,0,0, .1);
     display: none;
 }
 
 #newsletter .response.success{
-    background: #FFF;
+    color: #2070BA;
 }
 
 #newsletter .response.fail{
-    background: #ce2525;
-    color: #FFF;
+    color: #ce2525;
 }
