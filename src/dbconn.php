@@ -10,6 +10,18 @@
     try{
         $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());
         echo "Connected successfully"; 
+        
+        $sql = "INSERT INTO programacao (descricao, horario, inscritos, nome, responsavel)
+        VALUES ('TesteDescricao', 14, 0, 'Show Matanza', 'John Cena')";
+        
+        if ($conn->query($sql) === TRUE) {
+            echo "New record created successfully";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+        
+        $conn->close();
+        
     }
     catch(Exception $e)
     {
