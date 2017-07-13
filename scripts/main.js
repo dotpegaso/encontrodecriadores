@@ -16,10 +16,12 @@ $(document).ready(function(){
                 var div = $('#newsletter .response');
                 
                 if(data == 'false'){
+                    $(div).removeclass('success');
                     $(div).addClass('fail');
                     $(div).html('Algo deu errado! :(');
                     $(div).show();
                 }else{
+                    $(div).removeclass('fail');
                     $(div).addClass('success');
                     $(div).html('Email cadastrado com sucesso! :)');
                     $(div).show();

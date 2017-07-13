@@ -23,7 +23,7 @@
         </div>
         <p class="desc"><em>Simples e rápido:</em> preencha os campos abaixo e aguarde nosso retorno!</p>
         
-        <form id="edcData" action="">
+        <form id="edcData" method="POST" action="/src/mail.php">
             <label for="nome">Seu nome</label>
             <input type="text" name="nome" id="nome" required>
             
