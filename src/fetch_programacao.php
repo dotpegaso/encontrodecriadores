@@ -1,5 +1,7 @@
 <?php
 
+    $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());
+
     $sql = "SELECT * FROM programacao WHERE ativo = true";
     $result = $connection->query($sql);
     
