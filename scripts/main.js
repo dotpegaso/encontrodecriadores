@@ -31,4 +31,30 @@ $(document).ready(function(){
       
     });
     
+    $('form#edcData').on('submit', function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        
+        var formData = new FormData(this);
+
+        $.ajax({
+            beforeSend: function(){
+                $('.navbar .modal .overlay').show();
+            },
+            url: 'src/mail.php',
+            type: 'POST',
+            data: formData,
+            type: 'POST',
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function(data){
+                $('.navbar .modal .overlay .begin').hide();
+                $('.navbar .modal .overlay .success').show();
+            }
+        });
+        
+        
+    });
+    
 });

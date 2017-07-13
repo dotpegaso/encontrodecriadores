@@ -23,7 +23,7 @@
         </div>
         <p class="desc"><em>Simples e rápido:</em> preencha os campos abaixo e aguarde nosso retorno!</p>
         
-        <form id="edcData" method="POST" action="/src/mail.php">
+        <form id="edcData" method="POST" action="/src/mail.php" enctype="multipart/form-data">
             <label for="nome">Seu nome</label>
             <input type="text" name="nome" id="nome" required>
             
@@ -44,7 +44,7 @@
             </select>
             
             <label for="file">Nos envie uma foto do seu trampo</label>
-            <input type="file" name="file" id="file" required>
+            <input type="file" name="anexo" id="file" required>
       
             <button type="button" class="fechar">Cancelar</button>
             <button id="send">Enviar</button>

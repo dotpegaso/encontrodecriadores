@@ -18,7 +18,7 @@
         <h1 class="pre-load">Plataforma <em>multicultural</em> de criatividade</h1>
         <h1 class="pos-load">Plataforma <em>multicultural</em> de criatividade</h1>
         <div class="calendar">
-            <p>Próximo evento</p>
+            <p>Próximoo evento</p>
             <p class="date link">Setembro</p>
         </div>
     </section>

@@ -1,10 +1,27 @@
 <?php
+
+if(isset($_FILES['anexo']))
+{
+  date_default_timezone_set("Brazil/East"); //Definindo timezone padrão
+
+  $ext = strtolower(substr($_FILES['anexo']['name'],-4)); //Pegando extensão do arquivo
+  $new_name = date("Y.m.d-H.i.s") . $ext; //Definindo um novo nome para o arquivo
+  $dir = '../res/new/'; //Diretório para uploads
+
+  move_uploaded_file($_FILES['anexo']['tmp_name'], $dir.$new_name); //Fazer upload do arquivo
+}
+   
+$nome = $_POST['nome'];
+$negocio = $_POST['negocio'];
+$email = $_POST['email'];
+$categoria = $_POST['categoria'];
+
 require_once("../vendor/autoload.php");
 require_once("../vendor/phpmailer/phpmailer/PHPMailerAutoload.php");
 
 $mail = new PHPMailer;
 
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
@@ -14,16 +31,17 @@ $mail->Password = 'qwe123qwe';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('criadoresart@gmail.com', $assunto);
-$mail->addAddress('dotpegaso@gmail.com');  
+$mail->setFrom('criadoresart@gmail.com', 'Encontro de Criadores');
+$mail->addAddress('dotpegaso@gmail.com');
+$mail->addReplyTo('contato@encontrodecriadores.art', 'Encontro de Criadores');
 
-// $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+$mail->addAttachment($dir.$new_name); // Add attachments
 // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-$mail->isHTML(false);                                  // Set email format to HTML
+$mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Novo Cadastro';
-$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+$mail->Subject = 'Novo cadastro para categoria ' . $categoria;
+$mail->Body    = '<strong>Email para contato:</strong> ' . $email .'<br>'. '<strong>Nome do interessado:</strong> ' . $nome .'<br>'. '<strong>Atividade:</strong> ' . $negocio .'<br>'. '<strong>Categoria:</strong> ' . $categoria . '<br>';
+
 
 if(!$mail->send()) {
     echo 'Message could not be sent.';
@@ -31,3 +49,5 @@ if(!$mail->send()) {
 } else {
     echo 'Message has been sent';
 }
+
+array_map('unlink', glob($dir.$new_name));
