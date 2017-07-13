@@ -5,7 +5,7 @@
     
     
     // INSERT
-    $sql = "INSERT INTO tabela (x, y, z) VALUES ('string', 0int, 0int)";
+    $sql = "INSERT INTO programacao (nome, responsavel, horario, descricao, inscritos) VALUES ('Show Zeppelin', 'Page', 21, 'Descrição do show', 0)";
     $connection->query($sql);
     $connection->close();
     
