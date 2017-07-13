@@ -20,10 +20,10 @@
         
         $sql = "UPDATE programacao SET inscritos=$inscritos_update WHERE id=2";
         
-        if ($conn->query($sql) === TRUE) {
+        if ($connection->query($sql) === TRUE) {
         echo "Record updated successfully";
         } else {
-        echo "Error updating record: " . $conn->error;
+        echo "Error updating record: " . $connection->error;
         }
         
         $connection->close();
