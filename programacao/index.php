@@ -6,6 +6,7 @@
 <body>
 
     <?php include( "../src/navbar.php") ?>
+    <?php require_once('../src/dbconn.php') ?>
 
     <section id="intro">
         <h1>Confira a nossa<br><em>programação</em></h1>
