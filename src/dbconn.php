@@ -10,19 +10,13 @@
         $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());
         echo "Connected successfully"; 
         
+        $result = mysql_query("SELECT * FROM programacao WHERE id = 1");
+        $row = mysql_fetch_row($result);
         
-        $sql = "SELECT * FROM programacao";
-        $result = $conn->query($sql);
-        
-        if ($result->num_rows > 0) {
-            
-            while($row = $result->fetch_assoc()) {
-                echo $row;
-            }
-        } else {
-            echo "0 results";
-        }
-        
+        echo $row[0]; // 42
+        echo $row[1]; // the email value
+        echo $row[3];
+
     }catch(Exception $e){
         echo "ERRORCONN"; 
     }
