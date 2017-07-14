@@ -1,5 +1,5 @@
 <section id="sponsor">
-    <h1>Apoio_</h1>
+    <h1>Colabs_</h1>
     <div class="container">
         <div class="box"><img src="/res/selo_criativo.png" alt="" class="sponsor"></div>
         <div class="box"><img src="/res/s2.png" alt="" class="sponsor"></div>

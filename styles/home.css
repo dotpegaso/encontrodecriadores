@@ -154,7 +154,7 @@
 }
 
 #lastEvent{
-    padding: 50px 0 100px 0;
+    padding: 50px 0;
     text-align: center;
     position: relative;
     width: 100%;
@@ -191,10 +191,7 @@
 }
 
 #lastEvent .quote{
-    position: absolute;
-    left: 140px;
-    top: 250px;
-    transform: rotate(-5deg);
+   margin-top: 40px;
 }
 
 
@@ -627,4 +624,15 @@
     text-transform: uppercase;
     font-weight: 800;
     color: #2070BA;
+}
+
+
+#lastEvent h1:after {
+    content: 'Se liga como foi ';
+    position: absolute;
+    font-size: 18px;
+    bottom: 40px;
+    left: 50%;
+    color: #f142b3;
+    transform: translate(-50%);
 }

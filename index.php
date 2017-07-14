@@ -24,24 +24,19 @@
     </section>
 
     <section id="lastEvent">
-        <h1>Se liga como foi_</h1>
+        <h1>nosso último encontro_</h1>
         <div class="video">
             <iframe src="https://player.vimeo.com/video/225033243" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
         
         <div class="quote">
-            <p>Nunca</p>
-            <p>permita</p>
-            <p>que</p>
-            <p>suas</p>
-            <p>IDEIAS</p>
-            <p>fiquem</p>
-            <p>aprisionadas</p>
+            <p>Nunca permita que suas IDEIAS fiquem aprisionadas,</p>
+            <p>valorize a <strong>criatividade</strong> brasileira!</p>
         </div>
     </section>
 
     <section id="curator">
-        <h1>Colabs_</h1>
+        <h1>Quem colabora_</h1>
         <div class="container">
             <div class="flex">
 
@@ -132,15 +127,10 @@
 
             </div>
         </div>
-        <div class="quote">
-            <p>Valorize</p>
-            <p>a criatividade</p>
-            <p>Brasileira</p>
-        </div>
     </section>
 
     <section id="categories">
-        <h1>Categorias_</h1>
+        <h1>Expressões culturais_</h1>
         <div class="container">
             <div class="flex">
                 <div class="box">
@@ -188,7 +178,7 @@
     </section>
 
     <section id="maps">
-        <h1>Edições anteriores_</h1>
+        <h1>Rolês passados_</h1>
 
         <div class="flex st">
             <div class="box"></div>
