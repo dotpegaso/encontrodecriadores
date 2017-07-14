@@ -5,7 +5,7 @@
     <div class="menu">
         <a href="/programacao">Programação</a>
         <!--<a href="/atividades">Atividades</a>-->
-        <a href="#cadastro">Cadastre sua ideia</a>
+        <a href="#cadastro">Mande sua ideia</a>
     </div>
     
     <div class="modal">

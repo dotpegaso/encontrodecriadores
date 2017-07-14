@@ -19,12 +19,18 @@ $(document).ready(function(){
                     $(div).removeClass('success');
                     $(div).addClass('fail');
                     $(div).html('Algo deu errado! :(');
-                    $(div).show();
+                    $(div).slideToggle();
+                    setTimeout(function(){
+                        $(div).slideToggle();
+                    }, 5000);
                 }else{
                     $(div).removeClass('fail');
                     $(div).addClass('success');
-                    $(div).html('Email cadastrado com sucesso! :)');
-                    $(div).show();
+                    $(div).html('<p>Email cadastrado com sucesso! :)</p>');
+                    $(div).find('p').css({'opacity' : '1'});
+                    setTimeout(function(){
+                        $(div).find('p').css({'opacity' : '0'});
+                    }, 5000);
                 }
             }
       });
