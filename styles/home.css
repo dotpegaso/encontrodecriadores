@@ -111,27 +111,35 @@
 }
 
 #home .logotipo{
-    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 85vh;
+    z-index: -1;
 }
 
 #home .logotipo .center{
-    height: 100%;
-    width: calc(100% - 700px);
-    display: block;
-    margin: 150px auto;
+    width: 725px;
+    margin: 200px auto 0 auto;
     position: relative;
 }
 
-#home .logotipo img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: .7;
+@media screen and (min-width: 1280px) {
+    #home .logotipo .center{
+        margin: 150px auto 0 auto;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    #home .logotipo .center{
+        margin: 250px auto 0 auto;
+    }
 }
 
 #home .logotipo img:first-of-type{
     opacity: .2;
+    position: absolute;
 }
 
 
@@ -225,6 +233,13 @@
     left: 50%;
     color: #f142b3;
     transform: translate(-50%);
+}
+
+#lastEvent .quote p{
+    font-family: 'morrisseyirregular', sans-serif;
+    font-size: 2em;
+    margin: 5px 0;
+    color: #444;;
 }
 
 
@@ -395,10 +410,6 @@
     bottom: -80px;
     transform: rotate(4deg);
 }
-
-
-
-
 
 
 #categories{
@@ -659,3 +670,75 @@
     color: #2070BA;
 }
 
+@media only screen and (max-device-width: 490px) {
+    #home{
+        height: 80vh;
+    }
+    
+    #home .social,
+    #home .logotipo{
+        display: none;
+    }
+    
+    #home h1{
+        font-size: 2.2em;
+        padding: 0;
+    }
+    
+    #curator .container, 
+    #categories .container{
+        width: 100%;
+    }
+    
+    #curator .container .flex,
+    #categories .container .flex,
+    #maps .flex,
+    #footer .container{
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    #maps .flex .box{
+        width: 100%;
+    }
+    
+    #newsletter form input[type="email"]{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    #footer .container{
+        padding: 0;
+    }
+    
+    #footer .box:first-of-type img{
+        margin: 0;
+    }
+    
+    #curator .container .box{
+        height: 130px;
+        width: 130px;
+        margin: 0 20px;
+    }
+    
+    #curator .container .person p.name::after{
+        margin-top: 10px;
+    }
+    
+    #categories .container .flex .box{
+        height: 100px;
+        width: 32%;
+        margin: 2px;
+        padding: 0;
+    }
+    
+    #categories .container .flex .box .title{
+        font-size: 1em;
+    }
+    
+    #categories .container .flex .box .title::after{
+        display: none;
+    }
+}

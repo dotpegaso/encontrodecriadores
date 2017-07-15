@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<?php include( "src/head.php") ?>
+    <?php include( "src/head.php") ?>
 
 <body>
 
@@ -23,8 +23,7 @@
             </div>
         </div>
         
-        <h1 class="pre-load">Plataforma <em>multicultural</em> de criatividade</h1>
-        <h1 class="pos-load">Plataforma <em>multicultural</em> de criatividade</h1>
+        <h1>Plataforma <em>multicultural</em> de criatividade</h1>
         
         <div class="calendar">
             <p>Próximo evento</p>
