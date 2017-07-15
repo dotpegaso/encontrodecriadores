@@ -4,7 +4,8 @@
     </a> 
     <div class="menu">
         <a href="/programacao">Programação</a>
-        <!--<a href="/atividades">Atividades</a>-->
+        <!--<a href="/relatos">Relatos</a>-->
+        <!--<a href="/sobre">Curadoria</a>-->
         <a href="#cadastro">Mande sua ideia</a>
     </div>
     
@@ -21,7 +22,6 @@
                 <button type="button" class="fechar">Fechô, valeu!</button>
             </div>
         </div>
-        <p class="desc"><em>Simples e rápido:</em> preencha os campos abaixo e aguarde nosso retorno!</p>
         
         <form id="edcData" method="POST" action="/src/mail.php" enctype="multipart/form-data">
             <label for="nome">Seu nome</label>

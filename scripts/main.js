@@ -1,14 +1,20 @@
 $(document).ready(function(){
     
+    
+    
+    console.warn("Ahoy dev! \n Achou algum bug? \n Me manda no twitter: @dotpegaso ;)");
+    
     new Clipboard('#footer .box span.mail');
     
+    //newsletter + mailchimp
     $('form#news').on('submit', function(e){
-      e.preventDefault();
-      e.stopPropagation();
+        e.preventDefault();
+        e.stopPropagation();
       
-      var form = $(this);
+        var form = $(this);
       
-      $.ajax({
+        
+        $.ajax({
          url: 'src/subscribe.php',
          method: 'POST',
          data: $(form).serialize(),
@@ -33,10 +39,10 @@ $(document).ready(function(){
                     }, 5000);
                 }
             }
-      });
-      
+    });
     });
     
+    //cadastro
     $('form#edcData').on('submit', function(e){
         e.preventDefault();
         e.stopPropagation();
@@ -59,8 +65,6 @@ $(document).ready(function(){
                 $('.navbar .modal .overlay .success').show();
             }
         });
-        
-        
     });
     
 });
