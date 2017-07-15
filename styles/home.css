@@ -111,18 +111,22 @@
 }
 
 #home .logotipo{
-    position: absolute;
-    height: 800px;
-    top: -150px;
-    width: 100%;
-    z-index: -1;
+    display: none;
+}
+
+#home .logotipo .center{
+    height: 100%;
+    width: calc(100% - 700px);
+    display: block;
+    margin: 150px auto;
+    position: relative;
 }
 
 #home .logotipo img{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-25%, -10%);
+    transform: translate(-50%, -50%);
     opacity: .7;
 }
 

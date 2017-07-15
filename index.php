@@ -17,8 +17,10 @@
         </div>
         
         <div class="logotipo">
-            <img src="/res/wingone.png"  data-xrange="120" data-yrange="120">
-            <img src="/res/wingzero.png"  data-xrange="30" data-yrange="30">
+            <div class="center">
+                <img src="/res/wingone.png"  data-xrange="120" data-yrange="120">
+                <img src="/res/wingzero.png"  data-xrange="30" data-yrange="30">
+            </div>
         </div>
         
         <h1 class="pre-load">Plataforma <em>multicultural</em> de criatividade</h1>
