@@ -350,8 +350,13 @@ section:not(:first-of-type) > h1:before{
 }
 
 #sponsor .container .box{
-    height: 45px;
+    height: 50px;
     margin: 30px 25px;
+}
+
+#sponsor .container .box:first-of-type{
+    height: 120px;
+    width: 100%;
 }
 
 #sponsor .container .box img{

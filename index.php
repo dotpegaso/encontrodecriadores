@@ -15,8 +15,15 @@
                 <img src="/res/facebook.svg"></img>
             </a>
         </div>
+        
+        <div class="logotipo">
+            <img src="/res/wingone.png"  data-xrange="120" data-yrange="120">
+            <img src="/res/wingzero.png"  data-xrange="30" data-yrange="30">
+        </div>
+        
         <h1 class="pre-load">Plataforma <em>multicultural</em> de criatividade</h1>
         <h1 class="pos-load">Plataforma <em>multicultural</em> de criatividade</h1>
+        
         <div class="calendar">
             <p>Próximo evento</p>
             <p class="date link">Setembro</p>
@@ -204,11 +211,11 @@
 
     <footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!--<script src="node_modules/parallax-js/dist/parallax.min.js"></script>-->
+        <script src="scripts/parallax.min.js"></script>
         <script src="scripts/clipboard.min.js"></script>
         <script src="scripts/main.js"></script>
         <script src="scripts/navbar.js"></script>
-        <script type="text/javascript" src="scripts/home.js"></script>
+        <script src="scripts/home.js"></script>
     </footer>
 
 </body>

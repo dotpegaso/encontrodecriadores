@@ -12,10 +12,6 @@
             <a href="https://www.facebook.com/encontrodecriadores/" target="_blank">Facebook</a>
             <a href="https://www.instagram.com/encontrodecriadores/" target="_blank">Instagram</a>
         </div>
-        <!-- <div class="box">-->
-        <!--    <p>REGRAS</p>-->
-        <!--    <a href="#">Código de conduta</a>-->
-        <!--</div>-->
          <div class="box">
             <p>SITE_</p>
             <a href="#">Desenvolvido por dotpegaso</a>
