@@ -302,6 +302,10 @@ section:not(:first-of-type) > h1:before{
     background: #f1f1f1;
 }
 
+.navbar .hamburger{
+    display: none;
+}
+
 
 
 .calendar{
@@ -505,9 +509,11 @@ section:not(:first-of-type) > h1:before{
     color: #ce2525;
 }
 
+
 @media only screen and (max-device-width: 490px) {
     .navbar {
-        height: 70vw;
+        height: 50vw;
+        margin-bottom: 30px;
         padding: 0;
         position: relative;
         display: block;
@@ -515,13 +521,58 @@ section:not(:first-of-type) > h1:before{
         text-align: center;
     }
     
-    .navbar .menu,
-     #lastEvent{
+    .navbar .menu{
        display: none;
+    }
+    
+    .navbar .menu{
+        padding: 20px 0;
+        position: absolute;
+        background: #f6f6f6;
+    }
+    
+    .navbar .menu a{
+        width: 100%;
+        margin: 15px 0;
+    }
+    
+    .navbar .menu a:last-of-type{
+        width: 150px;
+    }
+    
+    .navbar .menu a:last-of-type::after{
+        display: none;
+    }
+    
+    .navbar .hamburger{
+        display: block;
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px 20px 0 0;
+        background-image: url('../res/hamburger.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .navbar .hamburger.close{
+        background-image: url('../res/cancel.svg') !important;
+    }
+    
+    .navbar .modal {
+        width: 80%;
+        background: #FFF;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, 30%);
+        text-align: left;
     }
     
     section:not(:first-of-type) > h1{
         font-size: 1.2em;
+        margin-bottom: 30px;
     }
     
     section:not(:first-of-type) > h1:before,
@@ -532,16 +583,22 @@ section:not(:first-of-type) > h1:before{
     }
     
     #newsletter form input[type="submit"]{
-        width: 80px;
+        width: 80%;
         margin-top: 10px;
     }
     
+    #footer{
+        padding: 50px 0;
+    }
+    
+    #footer .box:first-of-type{
+        margin-bottom: 40px;
+    }
+    
     #footer .box:not(:first-of-type){
-        margin: 30px 0;
+        margin: 20px 0;
         width: 100%;
         text-align: center;
     }
-    
-    
     
 }
