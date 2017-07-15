@@ -8,6 +8,7 @@
         <a href="/sobre">Curadoria</a>
         <a href="#cadastro">Mande sua ideia</a>
     </div>
+    <div class="hamburger"></div>
     
     <div class="modal">
         <div class="overlay">

@@ -28,7 +28,6 @@
     color: #444;
 }
 
-
 @media screen and (max-width: 1600px){
     #home h1{
         font-size: 6em;   
@@ -93,7 +92,6 @@
     opacity: .3;
 }
 
-
 #home .box .dir{
     background: red;
     width: 80%
@@ -143,47 +141,6 @@
 }
 
 
-#disclaimer{
-    background-image: url('/res/disclaimer.png');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #FFF;
-    text-align: center;
-    padding: 50px 0;
-    box-shadow: inset 0 0 30px rgba(0,0,0, .5);
-}
-
-#disclaimer p{
-    font-size: 2em;
-    width: 440px;
-    margin: 0 auto;
-    text-transform: uppercase;
-    position: relative;
-}
-
-#disclaimer p::after,
-#disclaimer p::before{
-    content: '';
-    height: 130px;
-    width: 50px;
-    position: absolute;
-    top: -5px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-#disclaimer p::before {
-    background-image: url(../res/brack.png);
-    left: 0;
-}
-
-#disclaimer p::after {
-    background-image: url(../res/brack_reverse.png);
-    right: 0;
-}
-
 #lastEvent{
     padding: 50px 0;
     text-align: center;
@@ -196,7 +153,6 @@
     display: block;
     position: relative;
 }
-
 
 #lastEvent .video iframe{
     border-radius: 20px;
@@ -240,6 +196,10 @@
     font-size: 2em;
     margin: 5px 0;
     color: #444;;
+}
+
+#lastEvent .button-video{
+    display: none;
 }
 
 
@@ -382,7 +342,6 @@
     margin-bottom: 4px;
 }
 
-
 #curator .container .person .ghost{
     color: #FFF;
 }
@@ -463,7 +422,6 @@
     font-size: 1.4em;
     color: #333;
 }
-
 
 #categories .container .flex .box .title::after{
     content: '';
@@ -593,7 +551,6 @@
     background-image: url('../res/pre5.jpg');
 }
 
-
 #maps .maps-overlay{
    background:transparent; 
    position:relative; 
@@ -626,7 +583,6 @@
     border-top-left-radius: 40%;
 }
 
-
 @media screen and (max-width: 1280){
     #maps .container .local{
         height: 240px;
@@ -638,7 +594,6 @@
         height: 340px;
     }
 }
-
 
 #maps .container .content .title{
     font-size: 4em;
@@ -670,6 +625,7 @@
     color: #2070BA;
 }
 
+/*MOBILE*/
 @media only screen and (max-device-width: 490px) {
     #home{
         height: 80vh;
@@ -717,10 +673,15 @@
         margin: 0;
     }
     
+    #curator{
+        padding-bottom: 50px;
+    }
+    
     #curator .container .box{
         height: 130px;
         width: 130px;
-        margin: 0 20px;
+        margin: 20px 20px 0 20px;
+        
     }
     
     #curator .container .person p.name::after{
@@ -740,5 +701,68 @@
     
     #categories .container .flex .box .title::after{
         display: none;
+    }
+    
+    #lastEvent{
+        padding-bottom: 0;
+    }
+    
+    #lastEvent h1:after{
+        bottom: 30px;
+    }
+    
+    #lastEvent .video{
+        display: none;
+    }
+    
+    #lastEvent .button-video{
+        border: 1px solid #000;
+        border-radius: 3px;
+        padding: 20px;
+        text-decoration: none;
+        position: relative;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        background: #FFF;
+        color: #000;
+        font-size: 1.1em;
+    }
+    
+    #lastEvent .button-video:before{
+        left: 50px;
+    }
+    
+    #lastEvent .button-video:after{
+        left: 80px;
+    }
+    
+    #lastEvent .quote{
+        margin-top: 70px;
+        font-size: .8em;
+    }
+    
+    #lastEvent .button-video:before {
+        content: '';
+        background-image: url(../res/curved.png);
+        height: 20px;
+        display: block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        width: 20px;
+        bottom: -30px;
+        left: 100px;
+        opacity: .6;
+    }
+    
+    #lastEvent .button-video:after{
+        content: 'Clique para ver o vídeo!';
+        color: #000;
+        position: absolute;
+        font-size: 0.8em;
+        left: 130px;
+        bottom: -30px;
+        opacity: .6;
     }
 }

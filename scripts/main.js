@@ -1,7 +1,5 @@
 $(document).ready(function(){
     
-    
-    
     console.warn("Ahoy dev! \n Achou algum bug? \n Me manda no twitter: @dotpegaso ;)");
     
     new Clipboard('#footer .box span.mail');
@@ -65,6 +63,11 @@ $(document).ready(function(){
                 $('.navbar .modal .overlay .success').show();
             }
         });
+    });
+    
+    $('.navbar .hamburger').on('click', function(){
+        $('.navbar .menu').slideToggle();
+        $('.navbar .hamburger').toggleClass('close');
     });
     
 });

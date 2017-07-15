@@ -36,6 +36,7 @@
         <div class="video">
             <iframe src="https://player.vimeo.com/video/225033243" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
+        <a href="https://player.vimeo.com/video/225033243" target="_blank" class="button-video">Encontro de Criadores #6</a>
         
         <div class="quote">
             <p>Nunca permita que suas IDEIAS fiquem aprisionadas,</p>
@@ -204,11 +205,11 @@
 
     </section>
     
-    <?php include( "src/newsletter.php") ?>
+    <?php include("src/newsletter.php") ?>
 
-    <?php include( "src/sponsor.php") ?>
+    <?php include("src/sponsor.php") ?>
 
-    <?php include( "src/footer.php") ?>
+    <?php include("src/footer.php") ?>
 
     <footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
