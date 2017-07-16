@@ -1,5 +1,5 @@
 #home{
-    height: 85vh;
+    height: 90vh;
 }
 
 #home div#mouseparallax {
@@ -138,6 +138,10 @@
 #home .logotipo img:first-of-type{
     opacity: .2;
     position: absolute;
+}
+
+#home .logotipo img:last-of-type{
+    opacity: .6;
 }
 
 
