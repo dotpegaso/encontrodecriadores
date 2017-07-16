@@ -133,7 +133,7 @@ section:not(:first-of-type) > h1:before{
 }
 
 .navbar .menu a:not(:last-of-type):hover{
-    color: #2070BA;
+    color: #f142b3;
 }
 
 .navbar .menu a:not(:last-of-type)::after{

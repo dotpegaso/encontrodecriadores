@@ -18,8 +18,8 @@
         
         <div class="logotipo">
             <div class="center">
-                <img src="/res/wingone.png"  data-xrange="120" data-yrange="120">
-                <img src="/res/wingzero.png"  data-xrange="30" data-yrange="30">
+                <img src="/res/wingone.png"  data-xrange="-120" data-yrange="-120">
+                <img src="/res/wingzero.png"  data-xrange="-30" data-yrange="-30">
             </div>
         </div>
         

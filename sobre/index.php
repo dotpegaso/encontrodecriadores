@@ -18,7 +18,9 @@
 
     <section id="container">
         
-        SOBRE NÓS
+        <div class="container">
+            
+        </div>
 
     </section>
     
