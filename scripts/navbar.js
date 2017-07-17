@@ -1,4 +1,4 @@
-$('a[href="#cadastro"]').on('click', function(){
+$('#cadastro').on('click', function(){
    $('.navbar .modal').toggle();
 });
 
