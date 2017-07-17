@@ -25,16 +25,20 @@
         </div>
         
         <form id="edcData" method="POST" action="/src/mail.php" enctype="multipart/form-data">
+            
+            <p>Não estamos aqui pra dizer o que é bom ou ruim (quem somos nós), apenas queremos alinhar ideias que estejam buscando coisas semelhantes e que se enquadrem a linhas conceituais que buscamos seguir;
+<strong>Envie sua ideia/ marca/ produto criativo que entraremos em contato, valeu!</strong></p>
+            
             <label for="nome">Seu nome</label>
             <input type="text" name="nome" id="nome" required>
             
-            <label for="negocio">Nome do seu negócio</label>
+            <label for="negocio">Nome da sua ideia/ marca/ produto</label>
             <input type="text" name="negocio" id="negocio" required>
             
             <label for="email">Seu Email</label>
             <input type="email" name="email" id="email" required>
             
-            <label for="categoria">Escolha sua categoria</label>
+            <label for="categoria">Sua categoria</label>
             <select name="categoria" id="categoria" required>
                 <option value="arte">Arte</option>
                 <option value="gastronomia">Gastronomia</option>
