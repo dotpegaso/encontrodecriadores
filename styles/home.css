@@ -250,6 +250,9 @@
     -webkit-align-items: center;
     -moz-align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
 }
 
 #curator .container .box{
