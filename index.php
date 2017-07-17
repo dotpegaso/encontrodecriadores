@@ -82,6 +82,23 @@
                         </ul>
                     </div>
                 </a>
+                
+                 <a href="https://www.instagram.com/felipeseguro/" target="_blank">
+                    <div class="person">
+                        <div class="box">
+                            <div class="hover">
+                                <img src="/res/instagram_white.svg"></img>
+                            </div>
+                        </div>
+                        <p class="name">William Fidelis</p>
+                        <ul>
+                            <li>Publicitário</li>
+                            <li>Motion Designer</li>
+                            <li>Fundador da</li>
+                            <li>WF2Motion</li>
+                        </ul>
+                    </div>
+                </a>
 
                 <a href="https://www.facebook.com/heitor.raving" target="blank">
                     <div class="person">

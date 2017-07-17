@@ -285,14 +285,18 @@
 }
 
 #curator .container a:nth-child(3) .person .box{
-    background-image: url("../res/heitor.jpg");
+    background-image: url("../res/fidelis.jpg");
 }
 
 #curator .container a:nth-child(4) .person .box{
-    background-image: url("../res/marcos.jpg");
+    background-image: url("../res/heitor.jpg");
 }
 
 #curator .container a:nth-child(5) .person .box{
+    background-image: url("../res/marcos.jpg");
+}
+
+#curator .container a:nth-child(6) .person .box{
     background-image: url("../res/renan.jpg");
 }
 

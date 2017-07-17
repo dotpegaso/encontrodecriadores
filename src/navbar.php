@@ -6,7 +6,7 @@
         <!--<a href="/programacao">Programação</a>-->
         <!--<a href="/relatos">Relatos</a>-->
         <!--<a href="/sobre">Curadoria</a>-->
-        <a href="#cadastro">Mande sua ideia</a>
+        <a id="cadastro">Mande sua ideia</a>
     </div>
     <div class="hamburger"></div>
     
