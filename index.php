@@ -47,7 +47,7 @@
         <h1>Qual é?</h1>
         <div class="container">
             <p>Somos uma plataforma multicultural de criatividade que através de eventos e ações, visa fomentar as expressões criativas como um todo, assim como valorizar a experiência de vida e a troca humana em todas suas vertentes!</p>
-            <img src="res/wingtwo.png" alt="">
+            <!--<img src="res/wingtwo.png" alt="">-->
         </div>
     </section>
 
