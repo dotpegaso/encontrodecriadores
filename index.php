@@ -83,7 +83,7 @@
                     </div>
                 </a>
                 
-                 <a href="https://www.instagram.com/felipeseguro/" target="_blank">
+                 <a href="https://www.instagram.com/" target="_blank">
                     <div class="person">
                         <div class="box">
                             <div class="hover">
