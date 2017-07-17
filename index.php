@@ -26,8 +26,8 @@
         <h1>Plataforma <em>multicultural</em> de criatividade</h1>
         
         <div class="calendar">
-            <p>Próximo evento</p>
-            <p class="date link">Setembro</p>
+            <p>Próximo evento colab</p>
+            <a href="https://www.facebook.com/events/1394930993956424/" target="_blank" class="date link">Santos Jazz Festival</a>
         </div>
     </section>
 
@@ -40,6 +40,14 @@
         
         <div class="quote">
             <p>Nunca permita que suas IDEIAS fiquem aprisionadas,</p>
+        </div>
+    </section>
+    
+    <section id="sobre">
+        <h1>Qual é?</h1>
+        <div class="container">
+            <p>Somos uma plataforma multicultural de criatividade que através de eventos e ações, visa fomentar as expressões criativas como um todo, assim como valorizar a experiência de vida e a troca humana em todas suas vertentes!</p>
+            <img src="res/wingtwo.png" alt="">
         </div>
     </section>
 
@@ -64,6 +72,40 @@
                         </ul>
                     </div>
                 </a>
+                
+                 <a href="https://www.facebook.com/heitor.raving" target="blank">
+                    <div class="person">
+                        <div class="box">
+                            <div class="hover">
+                                <img src="/res/facebook_icon.svg"></img>
+                            </div>
+                        </div>
+                        <p class="name">Heitor Cabral</p>
+                        <ul>
+                            <li>Idealizador da plataforma</li>
+                            <li>Social Media Manager</li>
+                            <li>Produtor em Vibehouse</li>
+                            <li class="ghost">_</li>
+                        </ul>
+                    </div>
+                </a>
+                
+                <a href="https://www.instagram.com/estudioarcanozero/" target="_blank">
+                    <div class="person">
+                        <div class="box">
+                            <div class="hover">
+                                <img src="/res/instagram_white.svg"></img>
+                            </div>
+                        </div>
+                        <p class="name">Renan Vilela</p>
+                        <ul>
+                            <li>Designer</li>
+                            <li>Psicólogo</li>
+                            <li>Co-fundador em</li>
+                            <li>Estúdio Arcano Zero</li>
+                        </ul>
+                    </div>
+                </a>
 
                 <a href="https://www.instagram.com/felipeseguro/" target="_blank">
                     <div class="person">
@@ -82,11 +124,11 @@
                     </div>
                 </a>
                 
-                 <a href="https://www.instagram.com/" target="_blank">
+                <a href="https://www.facebook.com/william.fidelis" target="_blank">
                     <div class="person">
                         <div class="box">
                             <div class="hover">
-                                <img src="/res/instagram_white.svg"></img>
+                                <img src="/res/facebook_icon.svg"></img>
                             </div>
                         </div>
                         <p class="name">William Fidelis</p>
@@ -99,22 +141,7 @@
                     </div>
                 </a>
 
-                <a href="https://www.facebook.com/heitor.raving" target="blank">
-                    <div class="person">
-                        <div class="box">
-                            <div class="hover">
-                                <img src="/res/facebook_icon.svg"></img>
-                            </div>
-                        </div>
-                        <p class="name">Heitor Cabral</p>
-                        <ul>
-                            <li>Idealizador da plataforma</li>
-                            <li>Social Media Manager</li>
-                            <li>Produtor em Vibehouse</li>
-                            <li class="ghost">_</li>
-                        </ul>
-                    </div>
-                </a>
+               
 
                 <a href="https://www.facebook.com/profile.php?id=100002181630064" target="_blank">
                     <div class="person">
@@ -133,22 +160,7 @@
                     </div>
                 </a>
 
-                <a href="https://www.instagram.com/estudioarcanozero/" target="_blank">
-                    <div class="person">
-                        <div class="box">
-                            <div class="hover">
-                                <img src="/res/instagram_white.svg"></img>
-                            </div>
-                        </div>
-                        <p class="name">Renan Vilela</p>
-                        <ul>
-                            <li>Designer</li>
-                            <li>Psicólogo</li>
-                            <li>Co-fundador em</li>
-                            <li>Estúdio Arcano Zero</li>
-                        </ul>
-                    </div>
-                </a>
+                
 
             </div>
         </div>
@@ -204,7 +216,7 @@
     </section>
 
     <section id="maps">
-        <h1>Rolês passados_</h1>
+        <h1>Nostalgias insanas_</h1>
 
         <div class="flex st">
             <div class="box"></div>

@@ -9,12 +9,12 @@
     
 
     <section id="intro" class="programacao">
-        <h1>Em breve <br><em>muita</em> coisa maluca, criativa e misturada</h1>
+        <h1>Em breve <br><em>muita</em> coisa maluca e criativa</h1>
     </section>
 
     <div class="calendar">
-        <p>Próximo evento</p>
-        <p class="date link">Setembro</p>
+        <p>Próximo evento colab</p>
+        <a href="https://www.facebook.com/events/1394930993956424/" target="_blank" class="date link">Santos Jazz Festival</a>
     </div>
 
     <section id="container">
