@@ -9,7 +9,7 @@
         <div class="box"><img src="/res/bujas.png" alt="" class="sponsor"></div>
         <div class="box"><img src="/res/dique.png" alt="" class="sponsor"></div>
         <!--<div class="box"><img src="/res/espaco.png" alt="" class="sponsor"></div>-->
-        <div class="box"><img src="/res/festival2.png" alt="" class="sponsor"></div>
+        <!--<div class="box"><img src="/res/festival2.png" alt="" class="sponsor"></div>-->
         <div class="box"><img src="/res/nove.png" alt="" class="sponsor"></div>
         <div class="box"><img src="/res/janelas.png" alt="" class="sponsor"></div>
         <div class="box"><img src="/res/revista.png" alt="" class="sponsor"></div>
