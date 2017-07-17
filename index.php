@@ -40,7 +40,6 @@
         
         <div class="quote">
             <p>Nunca permita que suas IDEIAS fiquem aprisionadas,</p>
-            <p>valorize a <strong>criatividade</strong> brasileira!</p>
         </div>
     </section>
 
@@ -199,8 +198,9 @@
                 </div>
             </div>
         </div>
-
-
+        <div class="quote">
+            <p>valorize a <strong>criatividade</strong> brasileira!</p>
+        </div>
     </section>
 
     <section id="maps">

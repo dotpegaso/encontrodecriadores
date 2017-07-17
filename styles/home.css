@@ -194,13 +194,7 @@
     color: #f142b3;
     transform: translate(-50%);
 }
-
-#lastEvent .quote p{
-    font-family: 'morrisseyirregular', sans-serif;
-    font-size: 2em;
-    margin: 5px 0;
-    color: #444;;
-}
+ 
 
 #lastEvent .button-video{
     display: none;
