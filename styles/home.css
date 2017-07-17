@@ -255,7 +255,7 @@
 #curator .container .box{
     height: 180px;
     width: 160px;
-    margin: 0 35px;
+    margin: 30px 55px 0 55px;
     background: #CCC;
     display: inline-block;
     background-repeat: no-repeat;
