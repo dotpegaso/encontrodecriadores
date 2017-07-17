@@ -8,8 +8,8 @@
     <?php include( "../src/navbar.php") ?>
     
 
-    <section id="intro">
-        <h1>Confira a nossa<br><em>programação</em></h1>
+    <section id="intro" class="programacao">
+        <h1>Em breve <br><em>muita</em> coisa maluca, criativa e misturada</h1>
     </section>
 
     <div class="calendar">
@@ -19,128 +19,128 @@
 
     <section id="container">
         
-        <div class="box">
-            <p class="date">21 Setembro</p>
+        <!--<div class="box">-->
+        <!--    <p class="date">21 Setembro</p>-->
 
-            <div class="content">
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-            </div>
+        <!--    <div class="content">-->
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
+        <!--    </div>-->
 
-            <div class="content workshop">
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-                <form>
-                    <input type="email" name="" placeholder="Reserve sua vaga, digite seu email" required/>
-                    <input type="hidden" name="nmworkshop" value="">
-                    <button>QUERO!</button>
-                </form>
-            </div>
+        <!--    <div class="content workshop">-->
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
+        <!--        <form>-->
+        <!--            <input type="email" name="" placeholder="Reserve sua vaga, digite seu email" required/>-->
+        <!--            <input type="hidden" name="nmworkshop" value="">-->
+        <!--            <button>QUERO!</button>-->
+        <!--        </form>-->
+        <!--    </div>-->
 
-            <div class="content">
+        <!--    <div class="content">-->
                 <!--<div class="break">-->
                 <!--    <p class="hour">19:00</p>-->
                 <!--    <p class="who">Coffee Break</p>-->
                 <!--</div>-->
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
          
-            </div>
+        <!--    </div>-->
 
-            <div class="content">
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-            </div>
+        <!--    <div class="content">-->
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
+        <!--    </div>-->
 
-            <div class="content workshop">
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-                <form>
-                    <input type="email" name="" placeholder="Reserve sua vaga, digite seu email" required/>
-                    <input type="hidden" name="nmworkshop" value="">
-                    <button>QUERO!</button>
-                </form>
-            </div>
+        <!--    <div class="content workshop">-->
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
+        <!--        <form>-->
+        <!--            <input type="email" name="" placeholder="Reserve sua vaga, digite seu email" required/>-->
+        <!--            <input type="hidden" name="nmworkshop" value="">-->
+        <!--            <button>QUERO!</button>-->
+        <!--        </form>-->
+        <!--    </div>-->
 
 
-        </div>
-        <div class="box">
-            <p class="date">21 Setembro</p>
+        <!--</div>-->
+        <!--<div class="box">-->
+        <!--    <p class="date">21 Setembro</p>-->
 
-            <div class="content">
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-            </div>
+        <!--    <div class="content">-->
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
+        <!--    </div>-->
 
-            <div class="content">
+        <!--    <div class="content">-->
                 <!--<div class="break">-->
                 <!--    <p class="hour">19:00</p>-->
                 <!--    <p class="who">Coffee Break</p>-->
                 <!--</div>-->
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
          
-            </div>
+        <!--    </div>-->
 
-            <div class="content workshop">
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-                <form>
-                    <input type="email" name="" placeholder="Reserve sua vaga, digite seu email" required/>
-                    <input type="hidden" name="nmworkshop" value="">
-                    <button>QUERO!</button>
-                </form>
-            </div>
+        <!--    <div class="content workshop">-->
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
+        <!--        <form>-->
+        <!--            <input type="email" name="" placeholder="Reserve sua vaga, digite seu email" required/>-->
+        <!--            <input type="hidden" name="nmworkshop" value="">-->
+        <!--            <button>QUERO!</button>-->
+        <!--        </form>-->
+        <!--    </div>-->
 
-            <div class="content workshop">
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-                <form>
-                    <input type="email" name="" placeholder="Reserve sua vaga, digite seu email" required/>
-                    <input type="hidden" name="nmworkshop" value="">
-                    <button>QUERO!</button>
-                </form>
-            </div>
+        <!--    <div class="content workshop">-->
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
+        <!--        <form>-->
+        <!--            <input type="email" name="" placeholder="Reserve sua vaga, digite seu email" required/>-->
+        <!--            <input type="hidden" name="nmworkshop" value="">-->
+        <!--            <button>QUERO!</button>-->
+        <!--        </form>-->
+        <!--    </div>-->
 
-            <div class="content">
+        <!--    <div class="content">-->
                 <!--<div class="break">-->
                 <!--    <p class="hour">19:00</p>-->
                 <!--    <p class="who">Coffee Break</p>-->
                 <!--</div>-->
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
          
-            </div>
+        <!--    </div>-->
 
-            <div class="content">
-                <p class="hour">19:00</p>
-                <p class="who">Heitor Ramos</p>
-                <br>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-            </div>
+        <!--    <div class="content">-->
+        <!--        <p class="hour">19:00</p>-->
+        <!--        <p class="who">Heitor Ramos</p>-->
+        <!--        <br>-->
+        <!--        <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>-->
+        <!--    </div>-->
 
 
-        </div>
+        <!--</div>-->
 
     </section>
     

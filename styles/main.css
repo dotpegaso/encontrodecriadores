@@ -602,3 +602,10 @@ section:not(:first-of-type) > h1:before{
     }
     
 }
+
+.quote p{
+    font-family: 'morrisseyirregular', sans-serif;
+    font-size: 2em;
+    margin: 5px 0;
+    color: #444;;
+}
