@@ -2,6 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#444444">
+    <meta property="og:image" content="res/facebook_ad.png" />
     <title>Encontro de criadores</title>
     <link rel="apple-touch-icon" sizes="57x57" href="/res/icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/res/icon/apple-icon-60x60.png">
