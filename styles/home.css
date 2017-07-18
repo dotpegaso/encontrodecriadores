@@ -44,7 +44,9 @@
     color: #000;
     background-color: #333;
    -webkit-background-clip: text;
+   -moz-background-clip: text;
    -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
    transition-duration: .2s;
 }
 
