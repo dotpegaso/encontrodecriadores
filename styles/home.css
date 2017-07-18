@@ -201,7 +201,7 @@
 }
 
 #sobre .container{
-    padding: 0 25%;
+    padding: 0 30%;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
@@ -217,7 +217,7 @@
 }
 
 #sobre .container img{
-    height: 85px;
+    height: 85px !important;
 }
 
 
