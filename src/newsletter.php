@@ -4,7 +4,7 @@
     <p>Deixa teu email aí, vamos manter você atualizado!</p>
     <form action="/src/subscribe.php" method="POST" id="news">
         <input type="email" name="email" placeholder="você@mail.com" required/>
-        <input type="submit" value="Eu quero!"/>
+        <input type="submit"  value="Quero"/>
     </form>
     <div class="response"></div>
 </section>

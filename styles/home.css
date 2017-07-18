@@ -201,12 +201,12 @@
 }
 
 #sobre .container{
-    padding: 0 30%;
+   padding: 0 30%;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 500;
     margin: 20px 0 0 0;
-    line-height: 26px;
+    line-height: 34px;
+    font-size: 1.4em;
     color: #333;
 }
 
