@@ -531,6 +531,7 @@ section:not(:first-of-type) > h1:before{
         padding: 20px 0;
         position: absolute;
         background: #f6f6f6;
+        width: 100%;
     }
     
     .navbar .menu a{
