@@ -5,7 +5,7 @@
         </div>
         <div class="box">
             <p>CONTATO_</p>
-            <span id="span" class="mail" data-clipboard-target="#span" value="curadoria@encontrodecriadores.art">contato@encontrodecriadores.art</span>
+            <span id="span" class="mail" data-clipboard-target="#span" value="curadoria@encontrodecriadores.art">curadoria@encontrodecriadores.art</span>
         </div>
         <div class="box">
             <p>SOCIAL_</p>
