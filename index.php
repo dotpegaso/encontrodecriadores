@@ -216,7 +216,7 @@
     </section>
 
     <section id="maps">
-        <h1>Nostalgias insanas_</h1>
+        <h1>Nostalgia insana_</h1>
 
         <div class="flex st">
             <div class="box"></div>
