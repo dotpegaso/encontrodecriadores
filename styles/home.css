@@ -656,7 +656,7 @@
 /*MOBILE*/
 @media only screen and (max-device-width: 490px) {
     #home{
-        height: 99vh;
+        height: 85vh;
     }
     
     #home .social,
