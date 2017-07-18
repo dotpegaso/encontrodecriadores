@@ -66,7 +66,7 @@ $(document).ready(function(){
     });
     
     $('.navbar .hamburger').on('click', function(){
-        $('.navbar .menu').slideToggle();
+        $('.navbar .menu').fadeToggle();
         $('.navbar .hamburger').toggleClass('close');
     });
     
