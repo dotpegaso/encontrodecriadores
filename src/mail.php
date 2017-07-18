@@ -32,9 +32,9 @@ $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, 
 $mail->Port = 587;                                    // TCP port to connect to
 
 $mail->setFrom('criadoresart@gmail.com', 'Encontro de Criadores');
-$mail->addAddress('dotpegaso@gmail.com');
+$mail->addAddress('encontrodecriadores.adm@gmail.com');
 $mail->addReplyTo('contato@encontrodecriadores.art', 'Encontro de Criadores');
-//encontrodecriadores.adm@gmail.com
+
 $mail->addAttachment($dir.$new_name); // Add attachments
 // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
