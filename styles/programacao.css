@@ -2,7 +2,7 @@
     font-weight: 100;
     display: block;
     width: 550px;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     margin: 0 auto;
     transform: translateY(20%);
@@ -15,6 +15,7 @@
 
 
 #container{
+    margin-top: 100px;
     padding: 0 40px;
     display: flex;
     -webkit-display: flex;
@@ -22,8 +23,7 @@
 }
 
 #container .box{
-    width: 50%;
-    padding: 0 100px;
+    padding: 0 50px;
 }
 
 
@@ -33,6 +33,23 @@
     font-size: 1em;
     text-transform: uppercase;
     margin-bottom: 80px;
+    position: relative;
+    color: #FFF;
+}
+
+#container .box .date:after{
+        content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    z-index: -1;
+    background-image: url(../res/brush.png);
+    background-position: center;
 }
 
 #container .box .content {
@@ -49,11 +66,12 @@
 #container .box .content .who{
     font-family: 'Indie Flower', cursive;
     display: inline-block;
-    font-size: 2.5em;
+    font-size: 1.7em;
 }
 
-#container .box .content .hour {
-    margin-right: 50px;
+#container .box .content .hour{
+    font-size: 2em;
+    font-weight: 800;
 }
 
 #container .box .content .desc{
@@ -135,14 +153,27 @@
     top: 15px;
 }
 
-.programacao h1{
-    font-size: 3em !important;
-}
 
 @media screen and (max-width: 490px){
     #intro h1{
         width: 100%;
+        font-size: 2em;
+    }
+    
+    #container{
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    
+    #container .box{
+        padding: 0 15px;
+        width: 100%;
     }
 }
 
+
+.pink{
+    color: #f142b3;
+    font-weight: 800;
+}
 
