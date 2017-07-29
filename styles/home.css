@@ -212,6 +212,11 @@
     color: #333;
 }
 
+#sobre .container p em{
+    font-weight: 100;
+    border-bottom: 2px solid #f142b3;
+}
+
 @media screen and (max-width: 490px){
     #sobre .container{
         padding: 0 15px;
@@ -656,7 +661,7 @@
 /*MOBILE*/
 @media only screen and (max-device-width: 490px) {
     #home{
-        height: 85vh;
+        height: 100%;
     }
     
     #home .social,
@@ -796,5 +801,16 @@
         left: 130px;
         bottom: -30px;
         opacity: .6;
+    }
+}
+
+@media only screen and (max-device-width: 768px) and (max-device-height: 1024px){
+    #curator .container, 
+    #categories .container {
+        width: 90%;
+    }
+    
+    #footer .box:first-of-type img{
+        margin: 0;
     }
 }

@@ -39,14 +39,14 @@
         <a href="https://player.vimeo.com/video/225033243" target="_blank" class="button-video">Encontro de Criadores #6</a>
         
         <div class="quote">
-            <p>Nunca permita que suas IDEIAS fiquem aprisionadas,</p>
+            <p>Nunca permita que suas <br> <strong>IDEIAS</strong> fiquem aprisionadas,</p>
         </div>
     </section>
     
     <section id="sobre">
         <h1>Qual é?</h1>
         <div class="container">
-            <p>Somos uma plataforma multicultural de criatividade que através de eventos e ações, visa fomentar as expressões criativas como um todo, assim como valorizar a experiência de vida e a troca humana em todas suas vertentes!</p>
+            <p>Somos uma <em>plataforma multicultural de criatividade</em> que através de eventos e ações, visa fomentar as <strong>expressões criativas</strong> como um todo, assim como valorizar a experiência de vida e a troca humana em todas suas vertentes!</p>
             <!--<img src="res/wingtwo.png" alt="">-->
         </div>
     </section>
@@ -211,7 +211,7 @@
             </div>
         </div>
         <div class="quote">
-            <p>valorize a <strong>criatividade</strong> brasileira!</p>
+            <p>valorize a criatividade <br> <strong>brasileira</strong>!</p>
         </div>
     </section>
 
