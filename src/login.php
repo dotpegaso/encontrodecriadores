@@ -15,8 +15,6 @@
         }
     }
     
-    echo $senha;
-    
     $connection->close();
     
     if( $senha == $pass ){
