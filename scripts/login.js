@@ -17,8 +17,8 @@ $(document).ready(function(){
                    alert('Palavra-chave incorreta');
                 }else{
                     data = $(data).split(',');
-                    window.localStorage.setItem('validation', data[1]);
-                    $('body').append(data[0]);
+                    window.localStorage.setItem('validation', data[0]);
+                    $('body').append(data[1]);
                 }
             }
     });
