@@ -16,7 +16,11 @@ $(document).ready(function(){
          url: '../../src/admin.php',
          method: 'POST',
          data: $(form).serialize(),
-         success: function(data){}
+         beforeSend: $('form button').text(),
+         success: function(data){
+             alert('Alterações salvas, a página será recarregada');
+             window.location.reload();
+         }
         });
     });
 
