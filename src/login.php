@@ -18,7 +18,7 @@
     $connection->close();
     
     if( $senha == $pass ){
-        header('Location:'. '/heitor/admin.php?true');
+        header('Location:'. 'https//encontrodecriadores.art/heitor/admin.php?true');
     }else{
         echo 'false';
     }
