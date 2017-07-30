@@ -13,9 +13,12 @@ $(document).ready(function(){
          data: $(form).serialize(),
          success: function(data){
                 if(data == 'false'){
+                    window.localStorage.setItem('validation', '');
                    alert('Palavra-chave incorreta');
                 }else{
-                    $('body').append(data);
+                    data = $(data).split(',');
+                    window.localStorage.setItem('validation', data[1]);
+                    $('body').append(data[0]);
                 }
             }
     });
