@@ -25,9 +25,10 @@
         
         <h1>Plataforma <em>multicultural</em> de criatividade</h1>
         
+        <?php require_once('src/fetch_evento.php'); ?>
         <div class="calendar">
             <p>Próximo evento colab</p>
-            <a href="https://www.facebook.com/events/1394930993956424/" target="_blank" class="date link">Santos Jazz Festival</a>
+            <a href="<?php echo $link?>" target="_blank" class="date link"><?php echo $evento ?></a>
         </div>
     </section>
 
