@@ -14,6 +14,8 @@ $(document).ready(function(){
          success: function(data){
                 if(data == 'false'){
                    alert('Palavra-chave incorreta');
+                }else{
+                    $('body').append(data);
                 }
             }
     });
