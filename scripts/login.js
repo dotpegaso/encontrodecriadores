@@ -9,7 +9,7 @@ $(document).ready(function(){
       
         
         $.ajax({
-         url: 'src/login.php',
+         url: '../src/login.php',
          method: 'POST',
          data: $(form).serialize(),
          success: function(data){
