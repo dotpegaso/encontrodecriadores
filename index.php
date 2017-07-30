@@ -35,9 +35,9 @@
     <section id="lastEvent">
         <h1>nosso último encontro_</h1>
         <div class="video">
-            <iframe src="<?php echo $link?>" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <iframe src="<?php echo $video?>" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
-        <a href="<?php echo $link?>" target="_blank" class="button-video">Encontro de Criadores #6</a>
+        <a href="<?php echo $video?>" target="_blank" class="button-video">Encontro de Criadores #6</a>
         
         <div class="quote">
             <p>Nunca permita que suas <br> <strong>IDEIAS</strong> fiquem aprisionadas,</p>
