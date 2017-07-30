@@ -14,5 +14,4 @@
     
     $connection->close();
     
-    header("Refresh:0");
 ?>
