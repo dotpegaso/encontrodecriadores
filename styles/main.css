@@ -47,13 +47,15 @@ em{
 
 .link:before {
     content: "";
-    border-top: 5px solid;
+    border: 3px solid;
     position: absolute;
     bottom: -10px;
     width: 30px;
     transition-duration: .3s;
     -webkit-transition-duration: .3s;
     -moz-transition-duration: .3s;
+    background-color: #f142b3;
+    color: #f142b3;
 }
 
 .link:hover:before {
