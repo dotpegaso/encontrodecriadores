@@ -18,7 +18,7 @@
     $connection->close();
     
     if( $senha == $pass ){
-        echo 'true, <script>window.location = "https://encontrodecriadores.art/heitor/admin.php";</script>';
+        echo '<script>window.location = "https://encontrodecriadores.art/heitor/admin.php";</script>';
     }else{
         echo 'false';
     }
