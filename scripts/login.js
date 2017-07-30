@@ -6,7 +6,6 @@ $(document).ready(function(){
         e.stopPropagation();
       
         var form = $(this);
-      
         
         $.ajax({
          url: '../src/login.php',
@@ -16,7 +15,7 @@ $(document).ready(function(){
                 if(data == 'false'){
                    alert('Palavra-chave incorreta');
                 }else{
-                    alert('certa resposta');
+                    header("Location:/heitor/admin.php?" + data);
                 }
             }
     });
