@@ -22,4 +22,5 @@ button{
     cursor: pointer;
     display: block;
     transition-duration: .2s;
+    margin-top: 50px;
 }
