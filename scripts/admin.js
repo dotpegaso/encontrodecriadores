@@ -11,7 +11,7 @@ $('form').on('submit', function(e){
     var form = $(this);
     
     $.ajax({
-     url: '../src/admin.php',
+     url: '../../src/admin.php',
      method: 'POST',
      data: $(form).serialize(),
      success: function(data){}
