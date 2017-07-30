@@ -4,7 +4,7 @@
 
     $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());
     
-    $sql = "SELECT nm_prox_evento FROM home";
+    $sql = "SELECT * FROM home";
     $result = $connection->query($sql);
     
     if ($result->num_rows > 0) {
