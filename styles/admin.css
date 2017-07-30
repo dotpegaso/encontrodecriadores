@@ -1,0 +1,25 @@
+form{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    font-size: 1.1em;
+}
+
+button{
+    width: 50%;
+    font-size: 2em;
+    border: none;
+    padding: 10px 0;
+    margin: 0 auto;
+    outline: none;
+    background: #f142b3;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    transition-duration: .2s;
+}

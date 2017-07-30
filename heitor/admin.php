@@ -19,6 +19,7 @@
     <h1>Link do último vídeo:</h1>
     <input type="text" name="video" value="<?php echo $video ?>" required>
     
+    <button>Salvar</button>
     </form>
     
     
