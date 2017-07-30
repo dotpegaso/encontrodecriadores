@@ -16,7 +16,7 @@ $(document).ready(function(){
          url: '../../src/admin.php',
          method: 'POST',
          data: $(form).serialize(),
-         beforeSend: $('form button').text(),
+         beforeSend: $('form button').text('Salvando...'),
          success: function(data){
              alert('Alterações salvas, a página será recarregada');
              window.location.reload();
