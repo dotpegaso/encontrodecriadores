@@ -18,7 +18,7 @@
     $connection->close();
     
     if( $senha == $pass ){
-        echo 'true';
+        header('Location:'. '/heitor/admin.php?true');
     }else{
         echo 'false';
     }
