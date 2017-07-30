@@ -16,7 +16,6 @@ $(document).ready(function(){
                     window.localStorage.setItem('validation', '');
                    alert('Palavra-chave incorreta');
                 }else{
-                    data = $(data).split(',');
                     window.localStorage.setItem('validation', 'true');
                     $('body').append(data[1]);
                 }
