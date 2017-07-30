@@ -14,8 +14,6 @@ $(document).ready(function(){
          success: function(data){
                 if(data == 'false'){
                    alert('Palavra-chave incorreta');
-                }else{
-                    header("Location:/heitor/admin.php?" + data);
                 }
             }
     });
