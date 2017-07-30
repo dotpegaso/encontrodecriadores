@@ -1,0 +1,20 @@
+<?php
+
+    require_once('src/dbconn.php');
+
+    $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());
+    
+    $sql = "SELECT * FROM home";
+    $result = $connection->query($sql);
+    
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            $nm_prox_evento =  $row['nm_prox_evento'];
+            $link_prox_evento =  $row['link_prox_evento'];
+            $video =  $row['link_video'];
+        }
+    }
+    
+    $connection->close();
+    
+?>
