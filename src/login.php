@@ -18,7 +18,7 @@
     $connection->close();
     
     if( $senha == $pass ){
-        require_once('../src/redirect.php');
+        echo '<script>window.location = "https://encontrodecriadores.art/heitor/admin.php";</script>';
     }else{
         echo 'false';
     }
