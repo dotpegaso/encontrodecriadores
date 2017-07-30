@@ -17,7 +17,7 @@ $(document).ready(function(){
                    alert('Palavra-chave incorreta');
                 }else{
                     window.localStorage.setItem('validation', 'true');
-                    $('body').append(data[1]);
+                    $('body').append(data);
                 }
             }
     });
