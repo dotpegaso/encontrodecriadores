@@ -3,6 +3,7 @@
     require_once('../src/dbconn.php');
 
     $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());
+    $connection->set_charset("utf8");
     
     //TITULO
     $sql = "SELECT * FROM colab";
