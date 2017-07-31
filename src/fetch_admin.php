@@ -27,8 +27,6 @@
         }
     }
     
-    $connection->close();
-    
     
     //DATA COLAB
     $sql = "SELECT * FROM colab_data";
@@ -41,5 +39,7 @@
             $data_tres =  $row['data_tres'];
         }
     }
+    
+    $connection->close();
     
 ?>
