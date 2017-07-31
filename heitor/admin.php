@@ -20,6 +20,16 @@
     <h1>Link do último vídeo:</h1>
     <input type="text" name="video" value="<?php echo $video ?>" required>
     
+    <h1>Título na página de programação:</h1>
+    <input type="text" name="nm_colab" value="<?php echo $colab ?>" required>
+    
+    <h1>Datas da programação (máx 3 dias):</h1>
+    <div class="flex">
+        <input type="text" name="data_um" value="<?php echo $data_um ?>" required>
+        <input type="text" name="data_dois" value="<?php echo $data_dois ?>" required>
+        <input type="text" name="data_tres" value="<?php echo $data_tres ?>" required>
+    </div>
+    
     <button>Salvar</button>
     </form>
     
