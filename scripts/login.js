@@ -13,12 +13,11 @@ $(document).ready(function(){
          data: $(form).serialize(),
          success: function(data){
                 if(data == 'false'){
-                    window.localStorage.setItem('validation', '');
                     alert('Palavra-chave incorreta');
                     $('#pass').val('');
                     $('#pass').focus();
                 }else{
-                    window.localStorage.setItem('validation', 'true');
+                    window.sessionStorage.setItem('validation', 'true');
                     $('body').append(data);
                 }
             }
