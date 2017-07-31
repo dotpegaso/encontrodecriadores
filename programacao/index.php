@@ -6,8 +6,8 @@
 <body>
 
     <?php include( "../src/navbar.php") ?>
-    
     <?php require_once('../src/fetch_colab.php'); ?>
+    
     <section id="intro" class="programacao">
         <h1>Programação <br><em><?php echo $colab ?></em></h1>
     </section>
@@ -17,7 +17,6 @@
         <a href="<?php echo $link?>" target="_blank" class="date link"><?php echo $evento ?></a>
     </div>
     
-    <?php require_once('../src/fetch_data.php'); ?>
     <section id="container">
         
         <div class="box" value="<?php echo $data_um ?>">
