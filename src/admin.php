@@ -15,5 +15,4 @@
     $connection->query($sql);
     
     $connection->close();
-    
 ?>

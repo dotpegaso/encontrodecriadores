@@ -7,20 +7,22 @@
 
     <?php include( "../src/navbar.php") ?>
     
-
+    <?php require_once('../src/fetch_colab.php'); ?>
     <section id="intro" class="programacao">
-        <h1>Programação <br><em>Encontro + Jazz</em></h1>
+        <h1>Programação <br><em><?php echo $colab ?></em></h1>
     </section>
 
+    <?php require_once('../src/fetch_evento.php'); ?>
     <div class="calendar">
         <p>Próximo evento colab</p>
-        <a href="https://www.facebook.com/events/1394930993956424/" target="_blank" class="date link">Santos Jazz Festival</a>
+        <a href="<?php echo $link?>" target="_blank" class="date link"><?php echo $evento ?></a>
     </div>
-
+    
+    <?php require_once('../src/fetch_data.php'); ?>
     <section id="container">
         
-        <div class="box">
-            <p class="date">28 Julho - Sexta</p>
+        <div class="box" value="<?php echo $data_um ?>">
+            <p class="date"><?php echo $data_um ?></p>
 
             <div class="content">
                 <p class="hour">19:00</p>
@@ -47,8 +49,8 @@
            </div>
         </div>
         
-        <div class="box">
-            <p class="date">29 Julho - Sábado</p>
+        <div class="box" value="<?php echo $data_dois ?>">
+            <p class="date"><?php echo $data_dois ?></p>
 
             <div class="content">
                 <p class="hour">13:00</p>
@@ -93,8 +95,8 @@
            </div>
         </div>
         
-        <div class="box">
-            <p class="date">30 Julho - Domingo</p>
+        <div class="box" value="<?php echo $data_tres ?>">
+            <p class="date"><?php echo $data_tres ?></p>
 
             <div class="content">
                 <p class="hour">13:00</p>
