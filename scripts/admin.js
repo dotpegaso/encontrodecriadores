@@ -1,6 +1,6 @@
 /* global $ */
 
-if(window.localStorage.getItem('validation') != 'true'){
+if(window.sessionStorage.getItem('validation') != 'true'){
     window.location = "https://encontrodecriadores.art/heitor";
 }
 
