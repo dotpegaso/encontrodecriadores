@@ -24,3 +24,12 @@ button{
     transition-duration: .2s;
     margin-top: 50px;
 }
+
+.flex{
+    display: flex;
+    -webkit-display: flex;
+}
+
+.flex input{
+    margin: 0 10px;
+}
