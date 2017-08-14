@@ -14,7 +14,7 @@
         </div>
          <div class="box">
             <p>SITE_</p>
-            <a href="https://fb.com/dotpegaso" target="_blank">Desenvolvido por dotpegaso</a>
+            <a href="http://dotpegaso.com.br" target="_blank">Desenvolvido por dotpegaso</a>
         </div>
     </div>
 </section>
