@@ -623,3 +623,9 @@ section:not(:first-of-type) > h1:before{
     margin: 5px 0;
     color: #444;;
 }
+
+@media screen and (max-width: 480px){
+    .hidden-mobile{
+        display: none;
+    }
+}
