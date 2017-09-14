@@ -30,6 +30,11 @@
             <p>Próximo evento:</p>
             <a href="<?php echo $link?>" target="_blank" class="date link"><?php echo $evento ?></a>
         </div>
+        
+        
+        <div class="banner hidden-mobile">
+            <img src="/res/infografico_desktop.png" alt="">
+        </div>
     </section>
 
     <section id="lastEvent">

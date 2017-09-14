@@ -125,6 +125,14 @@
     position: relative;
 }
 
+#home .banner{
+    max-width: 900px;
+}
+
+#home .banner img{
+    width: 100%;
+}
+
 @media screen and (min-width: 1280px) {
     #home .logotipo .center{
         margin: 150px auto 0 auto;
