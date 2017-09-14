@@ -32,7 +32,7 @@
         </div>
     </section>
     
-    <section id="banner">
+    <section id="banner" class="hidden-mobile">
          <img src="/res/infografico_desktop.png" alt="">
     </section>
 
