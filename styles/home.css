@@ -125,14 +125,6 @@
     position: relative;
 }
 
-#home .banner{
-    max-width: 900px;
-}
-
-#home .banner img{
-    width: 100%;
-}
-
 @media screen and (min-width: 1280px) {
     #home .logotipo .center{
         margin: 150px auto 0 auto;
@@ -152,6 +144,16 @@
 
 #home .logotipo img:last-of-type{
     opacity: .6;
+}
+
+
+#banner{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+#banner img{
+    width: 100%;
 }
 
 
