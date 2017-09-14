@@ -27,7 +27,7 @@
         
         <?php require_once('src/fetch_evento.php'); ?>
         <div class="calendar">
-            <p>Próximo evento colab</p>
+            <p>Próximo evento:</p>
             <a href="<?php echo $link?>" target="_blank" class="date link"><?php echo $evento ?></a>
         </div>
     </section>
