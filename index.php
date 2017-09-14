@@ -33,7 +33,7 @@
     </section>
     
     <section id="banner" class="hidden-mobile">
-         <img src="/res/infografico_desktop.png" alt="">
+         <img src="/res/banner.png" alt="">
     </section>
 
     <section id="lastEvent">
