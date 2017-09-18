@@ -33,7 +33,9 @@
     </section>
     
     <section id="banner" class="hidden-mobile">
-         <img src="/res/banner.png" alt="">
+         <a href="https://www.facebook.com/events/369297903487488/" target="_blank">
+             <img src="/res/banner.png" alt="">
+         </a>
     </section>
 
     <section id="lastEvent">
