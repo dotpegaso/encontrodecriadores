@@ -629,3 +629,9 @@ section:not(:first-of-type) > h1:before{
         display: none;
     }
 }
+
+#movimento{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}

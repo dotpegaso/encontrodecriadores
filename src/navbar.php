@@ -4,7 +4,7 @@
     </a> 
     <div class="menu">
         <a href="/programacao">Programação</a>
-        <!--<a href="/relatos">Relatos</a>-->
+        <a href="/movimento" class="hidden-mobile">Movimento</a>
         <!--<a href="/sobre">Curadoria</a>-->
         <a id="cadastro">Mande sua ideia</a>
     </div>
