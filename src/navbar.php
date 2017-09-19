@@ -5,6 +5,7 @@
     <div class="menu">
         <a href="/programacao">Programação</a>
         <a href="/movimento" class="hidden-mobile">Movimento</a>
+        <a href="https://vimeo.com/user52433250" target="_blank">Registros</a>
         <!--<a href="/sobre">Curadoria</a>-->
         <a id="cadastro">Mande sua ideia</a>
     </div>
