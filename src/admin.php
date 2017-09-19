@@ -25,9 +25,9 @@
     $sql = "INSERT INTO colab (nm_colab) VALUES ('$colab')";
     $connection->query($sql);
     
-    $sql = "DELETE FROM colab_data";
+    $sql = "DELETE FROM data";
     $connection->query($sql);
-    $sql = "INSERT INTO colab_data (data_um, data_dois, data_tres) VALUES ('$data_um', '$data_dois', '$data_tres')";
+    $sql = "INSERT INTO data (data_um, data_dois, data_tres) VALUES ('$data_um', '$data_dois', '$data_tres')";
     $connection->query($sql);
     
     $connection->close();

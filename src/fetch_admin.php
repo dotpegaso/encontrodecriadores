@@ -28,7 +28,7 @@
     }
     
     //DATA COLAB
-    $sql = "SELECT * FROM colab_data";
+    $sql = "SELECT * FROM data";
     $result = $connection->query($sql);
     
     if ($result->num_rows > 0) {
