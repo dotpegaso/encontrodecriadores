@@ -32,9 +32,15 @@
         </div>
     </section>
     
+    <?php require_once('src/fetch_banner.php'); ?>
     <section id="banner" class="hidden-mobile">
-         <a href="https://www.facebook.com/events/369297903487488/" target="_blank">
-             <img src="/res/banner.png" alt="">
+         <a href="<?php echo $link?>" target="_blank">
+             <img src="<?php echo $banner ?>" alt="">
+         </a>
+    </section>
+    <section id="banner" class="hidden-desktop">
+         <a href="<?php echo $link?>" target="_blank">
+             <img src="<?php echo $banner_mobile ?>" alt="">
          </a>
     </section>
 

@@ -624,11 +624,21 @@ section:not(:first-of-type) > h1:before{
     color: #444;;
 }
 
+.hidden-desktop{
+    display: none;
+}
+
+
 @media screen and (max-width: 480px){
     .hidden-mobile{
         display: none;
     }
+    
+    .hidden-desktop{
+        display: block;
+    }
 }
+
 
 #movimento{
     width: 80%;

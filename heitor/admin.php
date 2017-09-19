@@ -19,6 +19,12 @@
             <h1>Link do próximo evento:</h1>
             <input type="text" name="link_prox_evento" value="<?php echo $link_prox_evento ?>" required>
             
+            <h1>Link do banner desktop:</h1>
+            <input type="text" name="banner" value="<?php echo $banner ?>" required>
+            
+            <h1>Link do banner mobile:</h1>
+            <input type="text" name="banner_mobile" value="<?php echo $banner_mobile ?>" required>
+            
             <h1>Link do último vídeo:</h1>
             <input type="text" name="video" value="<?php echo $video ?>" required>
             
