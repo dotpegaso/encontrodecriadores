@@ -19,117 +19,117 @@
     
     <section id="container">
         
-        <div class="box" value="<?php echo $data_um ?>">
-            <p class="date"><?php echo $data_um ?></p>
+        <div class="box" value="10">
+            <p class="date">NOV 10</p>
 
             <div class="content">
-                <p class="hour">19:00</p>
+                <p class="hour">18h00</p>
                 <br>
-                <p class="who">Rosa Marya & Banda Jazzileira</p>
+                <p class="who">ABERTURA</p>
             </div>
 
            <div class="content">
-                <p class="hour">20:30</p>
+                <p class="hour">19h00</p>
                 <br>
-                <p class="who"> Saravá – 80 anos de Baden Powell – Quizumba Latina & Lucia Spivak (Argentina)</p>
+                <p class="who">Literatura e Criatividade no Século XXI (bate papo)</p>
           </div>
 
+           <div class="content">
+                <p class="hour">19h30</p>
+                <br>
+                <p class="who">Conrado Pouza (MPB)</p>
+           </div>
+           
+           <div class="content">
+                <p class="hour">22h00</p>
+                <br>
+                <p class="who pink">Banda TREVO</p>
+           </div>
+           
+           <div class="content">
+                <p class="hour">00h00</p>
+                <br>
+                <p class="who pink">Encerramento</p>
+           </div>
+        </div>
+        
+        <div class="box" value="11">
+            <p class="date">NOV 11</p>
+
+            <div class="content">
+                <p class="hour">14h00</p>
+                <br>
+                <p class="who">ABERTURA</p>
+            </div>
+
+           <div class="content">
+                <p class="hour">16h00</p>
+                <br>
+                <p class="who pink">Banda TREZALT</p>
+          </div>
+
+           <div class="content">
+                <p class="hour">16h30</p>
+                <br>
+                <p class="who">Arte Urbana (bate papo + intervenção)</p>
+           </div>
+           
+           <div class="content">
+                <p class="hour">18h30</p>
+                <br>
+                <p class="who pink">Banda TRIÁCIDA</p>
+           </div>
+           
+           <div class="content">
+                <p class="hour">20h00</p>
+                <br>
+                <p class="who">Festa Riscado</p>
+           </div>
+           
+           <div class="content">
+                <p class="hour">22h00</p>
+                <br>
+                <p class="who">Encerramento</p>
+           </div>
+        </div>
+        
+        <div class="box" value="12">
+            <p class="date">NOV 12</p>
+
+            <div class="content">
+                <p class="hour">14h00</p>
+                <br>
+                <p class="who">ABERTURA</p>
+            </div>
+
+           <div class="content">
+                <p class="hour">14h30</p>
+                <br>
+                <p class="who">PANCS DO QUINTAL (Plantas Alimentícias Não Convencionais)</p>
+          </div>
+
+           <div class="content">
+                <p class="hour">16h00</p>
+                <br>
+                <p class="who">Esquenta Curta Santos (bate papo)</p>
+           </div>
+           
+           <div class="content">
+                <p class="hour">16h30</p>
+                <br>
+                <p class="who">Banda QUERÔ</p>
+           </div>
+           
+           <div class="content">
+                <p class="hour">18h30</p>
+                <br>
+                <p class="who pink">Banda ZIMBRA</p>
+           </div>
+           
            <div class="content">
                 <p class="hour">22:00</p>
                 <br>
-                <p class="who">Ari Kumar Blues Band (USA)</p>
-           </div>
-           
-           <div class="content">
-                <p class="hour">23:00</p>
-                <br>
-                <p class="who pink">Liniker e os Caramelows</p>
-           </div>
-        </div>
-        
-        <div class="box" value="<?php echo $data_dois ?>">
-            <p class="date"><?php echo $data_dois ?></p>
-
-            <div class="content">
-                <p class="hour">13:00</p>
-                <br>
-                <p class="who"> DJs Santos Jazz + Encontro de Criadores + Foods (full time)</p>
-            </div>
-
-           <div class="content">
-                <p class="hour">15:00</p>
-                <br>
-                <p class="who"> Escola Simonian in Concert</p>
-          </div>
-
-           <div class="content">
-                <p class="hour">17:00</p>
-                <br>
-                <p class="who">Carla Mariani & Banda – Tributo às Divas do Jazz & Blues</p>
-           </div>
-           
-           <div class="content">
-                <p class="hour">18:30</p>
-                <br>
-                <p class="who pink">Thiago Espírito Santo & Silvia Goes convidam Alba Santos (Espanha)</p>
-           </div>
-           
-           <div class="content">
-                <p class="hour">20:00</p>
-                <br>
-                <p class="who">Igor Willcox 4tet</p>
-           </div>
-           
-           <div class="content">
-                <p class="hour">21:30</p>
-                <br>
-                <p class="who">Blubell & Banda</p>
-           </div>
-           
-           <div class="content">
-                <p class="hour">23:00</p>
-                <br>
-                <p class="who">Ellén Oléria & Banda</p>
-           </div>
-        </div>
-        
-        <div class="box" value="<?php echo $data_tres ?>">
-            <p class="date"><?php echo $data_tres ?></p>
-
-            <div class="content">
-                <p class="hour">13:00</p>
-                <br>
-                <p class="who">DJs Santos Jazz + Encontro de Criadores + Foods (full time)</p>
-            </div>
-
-           <div class="content">
-                <p class="hour">14:30</p>
-                <br>
-                <p class="who">Orquestra de Sopros da Banda Marcial de Cubatão – Clássicos do Jazz</p>
-          </div>
-
-           <div class="content">
-                <p class="hour">16:00</p>
-                <br>
-                <p class="who">Dolores in Blues</p>
-           </div>
-           
-           <div class="content">
-                <p class="hour">17:00</p>
-                <br>
-                <p class="who pink">Jes Condado & Banda (Argentina)</p>
-           </div>
-           
-           <div class="content">
-                <p class="hour">18:30</p>
-                <br>
-                <p class="who">Roberto Sion & Anaí Rosa</p>
-           </div>
-           
-           <div class="content">
-                <p class="hour">20:00</p>
-                <br>
-                <p class="who">Tradicional Jazz Band</p>
+                <p class="who">Encerramento</p>
            </div>
         </div>
     
