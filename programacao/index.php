@@ -23,33 +23,33 @@
             <p class="date">NOV 10</p>
 
             <div class="content">
-                <p class="hour">18h00</p>
+                <p class="hour">18:00</p>
                 <br>
                 <p class="who">ABERTURA</p>
             </div>
 
            <div class="content">
-                <p class="hour">19h00</p>
+                <p class="hour">19:00</p>
                 <br>
                 <p class="who">Literatura e Criatividade no Século XXI (bate papo)</p>
           </div>
 
            <div class="content">
-                <p class="hour">19h30</p>
+                <p class="hour">19:30</p>
                 <br>
-                <p class="who">Conrado Pouza (MPB)</p>
+                <p class="who pink">Conrado Pouza (MPB)</p>
            </div>
            
            <div class="content">
-                <p class="hour">22h00</p>
+                <p class="hour">22:00</p>
                 <br>
                 <p class="who pink">Banda TREVO</p>
            </div>
            
            <div class="content">
-                <p class="hour">00h00</p>
+                <p class="hour">00:00</p>
                 <br>
-                <p class="who pink">Encerramento</p>
+                <p class="who">Encerramento</p>
            </div>
         </div>
         
@@ -57,37 +57,37 @@
             <p class="date">NOV 11</p>
 
             <div class="content">
-                <p class="hour">14h00</p>
+                <p class="hour">14:00</p>
                 <br>
                 <p class="who">ABERTURA</p>
             </div>
 
            <div class="content">
-                <p class="hour">16h00</p>
+                <p class="hour">16:00</p>
                 <br>
                 <p class="who pink">Banda TREZALT</p>
           </div>
 
            <div class="content">
-                <p class="hour">16h30</p>
+                <p class="hour">16:30</p>
                 <br>
                 <p class="who">Arte Urbana (bate papo + intervenção)</p>
            </div>
            
            <div class="content">
-                <p class="hour">18h30</p>
+                <p class="hour">18:30</p>
                 <br>
                 <p class="who pink">Banda TRIÁCIDA</p>
            </div>
            
            <div class="content">
-                <p class="hour">20h00</p>
+                <p class="hour">20:00</p>
                 <br>
                 <p class="who">Festa Riscado</p>
            </div>
            
            <div class="content">
-                <p class="hour">22h00</p>
+                <p class="hour">22:00</p>
                 <br>
                 <p class="who">Encerramento</p>
            </div>
@@ -97,31 +97,31 @@
             <p class="date">NOV 12</p>
 
             <div class="content">
-                <p class="hour">14h00</p>
+                <p class="hour">14:00</p>
                 <br>
                 <p class="who">ABERTURA</p>
             </div>
 
            <div class="content">
-                <p class="hour">14h30</p>
+                <p class="hour">14:30</p>
                 <br>
                 <p class="who">PANCS DO QUINTAL (Plantas Alimentícias Não Convencionais)</p>
           </div>
 
            <div class="content">
-                <p class="hour">16h00</p>
+                <p class="hour">16:00</p>
                 <br>
-                <p class="who">Esquenta Curta Santos (bate papo)</p>
+                <p class="who pink">Esquenta Curta Santos (bate papo)</p>
            </div>
            
            <div class="content">
-                <p class="hour">16h30</p>
+                <p class="hour">16:30</p>
                 <br>
                 <p class="who">Banda QUERÔ</p>
            </div>
            
            <div class="content">
-                <p class="hour">18h30</p>
+                <p class="hour">18:30</p>
                 <br>
                 <p class="who pink">Banda ZIMBRA</p>
            </div>
