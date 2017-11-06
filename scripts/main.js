@@ -80,5 +80,5 @@ $(document).ready(function(){
     ga('send', 'pageview');
 
     //maps
-    $('.gmaps').append('<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14587.213980722196!2d-46.332233!3d-23.9320115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdb09d207341c1b80!2sCasa+da+Frontaria+Azulejada!5e0!3m2!1spt-BR!2sbr!4v1509971389123" width="90%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>')
+    $('.gmaps').append('<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14587.213980722196!2d-46.332233!3d-23.9320115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdb09d207341c1b80!2sCasa+da+Frontaria+Azulejada!5e0!3m2!1spt-BR!2sbr!4v1509971389123" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>')
 });

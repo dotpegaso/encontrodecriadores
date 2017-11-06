@@ -391,7 +391,7 @@ section:not(:first-of-type) > h1:before{
 
 
 #footer{
-    padding: 140px 0;
+    padding: 100px 0;
 }
 
 #footer .container{
@@ -646,10 +646,14 @@ section:not(:first-of-type) > h1:before{
     margin: 0 auto;
 }
 
+.gmaps,
+.maps-overlay{
+    width: 100%;
+}
+
 .maps-overlay {
    background:transparent; 
    position:relative; 
-   width:90%;
    height:450px; /* your iframe height */
    top:450px;  /* your iframe height */
    margin-top:-450px;  /* your iframe height */
