@@ -14,5 +14,8 @@
         <a href="http://www.janelas.tv.br" target="_blank"><div class="box"><img src="/res/janelas.png" alt="" class="sponsor"></div></a>
         <a href="http://www.revistanove.com.br" target="_blank"><div class="box"><img src="/res/revista.png" alt="" class="sponsor"></div></a>
         
+        
+        <div class="maps-overlay" onClick="style.pointerEvents='none'"></div>
+        <div class="gmaps"></div>
    </div>
 </section>
