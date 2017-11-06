@@ -651,6 +651,10 @@ section:not(:first-of-type) > h1:before{
     width: 100%;
 }
 
+.gmaps{
+    margin-top: 50px;
+}
+
 .maps-overlay {
    background:transparent; 
    position:relative; 
