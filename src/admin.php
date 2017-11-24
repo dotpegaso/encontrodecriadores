@@ -10,6 +10,9 @@
     
     $colab = $_POST['nm_colab'];
     
+    $banner_desktop = $_POST['banner'];
+    $banner_mobile = $_POST['banner_mobile'];
+    
     $data_um = $_POST['data_um'];
     $data_dois = $_POST['data_dois'];
     $data_tres = $_POST['data_tres'];
@@ -28,6 +31,11 @@
     $sql = "DELETE FROM data";
     $connection->query($sql);
     $sql = "INSERT INTO data (data_um, data_dois, data_tres) VALUES ('$data_um', '$data_dois', '$data_tres')";
+    $connection->query($sql);
+    
+    $sql = "DELETE FROM banner";
+    $connection->query($sql);
+    $sql = "INSERT INTO banner (banner_desktop, banner_mobile) VALUES ('$banner_desktop', '$banner_mobile')";
     $connection->query($sql);
     
     $connection->close();
