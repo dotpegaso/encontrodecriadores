@@ -38,7 +38,6 @@
             
             <label for="email">Seu Email</label>
             <input type="email" name="email" id="email" required>
-            
             <label for="ideia">Qual é a tua ideia?</label>
             <input type="textarea" name="" name="ideia" id="ideia" required/>
             
