@@ -15,6 +15,7 @@ $nome = $_POST['nome'];
 $negocio = $_POST['negocio'];
 $email = $_POST['email'];
 $categoria = $_POST['categoria'];
+$ideia = $_POST=['ideia'];
 
 require_once("../vendor/autoload.php");
 require_once("../vendor/phpmailer/phpmailer/PHPMailerAutoload.php");
@@ -40,7 +41,7 @@ $mail->addAttachment($dir.$new_name); // Add attachments
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Novo cadastro para categoria ' . $categoria;
-$mail->Body    = '<strong>Email para contato:</strong> ' . $email .'<br>'. '<strong>Nome do interessado:</strong> ' . $nome .'<br>'. '<strong>Atividade:</strong> ' . $negocio .'<br>'. '<strong>Categoria:</strong> ' . $categoria . '<br>';
+$mail->Body    = '<strong>Email para contato:</strong> ' . $email .'<br>'. '<strong>Nome do interessado:</strong> ' . $nome .'<br>'. '<strong>Atividade:</strong> ' . $negocio .'<br>'. '<strong>Ideia:</strong> ' . $ideia . '<br/>'. '<strong>Categoria:</strong> ' . $categoria . '<br>';
 
 
 if(!$mail->send()) {

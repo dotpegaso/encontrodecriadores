@@ -39,6 +39,9 @@
             <label for="email">Seu Email</label>
             <input type="email" name="email" id="email" required>
             
+            <label for="ideia">Qual é a tua ideia?</label>
+            <input type="textarea" name="" name="ideia" id="ideia" required/>
+            
             <label for="categoria">Sua categoria</label>
             <select name="categoria" id="categoria" required>
                 <option value="arte">Arte</option>
