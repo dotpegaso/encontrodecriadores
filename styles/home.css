@@ -153,10 +153,11 @@
     text-align: center;
 }
 
-/*#banner img{*/
-/*    width: 100%;*/
-/*}*/
-
+@media screen and (max-width: 490px){
+    #banner img{
+        width: 100%;
+    }
+}
 
 #lastEvent{
     padding: 50px 0;
