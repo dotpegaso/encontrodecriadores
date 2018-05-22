@@ -150,11 +150,12 @@
 #banner{
     max-width: 850px;
     margin: 40px auto;
+    text-align: center;
 }
 
-#banner img{
-    width: 100%;
-}
+/*#banner img{*/
+/*    width: 100%;*/
+/*}*/
 
 
 #lastEvent{
