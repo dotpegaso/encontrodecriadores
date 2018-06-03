@@ -77,7 +77,13 @@
            <div class="content">
                 <p class="hour">14:30</p>
                 <br>
-                <p class="who pink">JOÃO ROMUALDO + Comida, diversão e arte! (sua alimentação diz muito sobre quem você é)</p>
+                <p class="who pink">Discotecagem JOÃO ROMUALDO</p>
+          </div>
+          
+          <div class="content">
+                <p class="hour">14:30</p>
+                <br>
+                <p class="who pink">Comida, diversão e arte! (sua alimentação diz muito sobre quem você é)</p>
           </div>
 
            <div class="content">
@@ -99,15 +105,9 @@
            </div>
            
            <div class="content">
-                <p class="hour">22:00</p>
-                <br>
-                <p class="who">Encerramento</p>
-           </div>
-           
-           <div class="content">
                 <p class="hour">21:00</p>
                 <br>
-                <p class="who pink">cristopher clark</p>
+                <p class="who pink">Cristopher Clark</p>
            </div>
            
            <div class="content">
