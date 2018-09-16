@@ -32,17 +32,17 @@
         </div>
     </section>
     
-    <?php require_once('src/fetch_banner.php'); ?>
-    <section id="banner" class="hidden-mobile">
-         <a href="<?php echo $link?>" target="_blank">
-             <img src="<?php echo $banner ?>" alt="">
-         </a>
-    </section>
-    <section id="banner" class="hidden-desktop">
-         <a href="<?php echo $link?>" target="_blank">
-             <img src="<?php echo $banner_mobile ?>" alt="">
-         </a>
-    </section>
+    <!--<?php require_once('src/fetch_banner.php'); ?>-->
+    <!--<section id="banner" class="hidden-mobile">-->
+    <!--     <a href="<?php echo $link?>" target="_blank">-->
+    <!--         <img src="<?php echo $banner ?>" alt="">-->
+    <!--     </a>-->
+    <!--</section>-->
+    <!--<section id="banner" class="hidden-desktop">-->
+    <!--     <a href="<?php echo $link?>" target="_blank">-->
+    <!--         <img src="<?php echo $banner_mobile ?>" alt="">-->
+    <!--     </a>-->
+    <!--</section>-->
 
     <section id="lastEvent">
         <h1>nosso último encontro_</h1>

@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#b52281">
     <meta property="og:image" content="https://image.ibb.co/meJTcv/facebook_ad.png" />
-     <meta property="og:description" content="Somos uma plataforma multicultural de criatividade que através de eventos e ações, visa fomentar as expressões criativas como um todo, assim como valorizar a experiência de vida e a troca humana em todas suas vertentes!" />
+    <meta property="og:description" content="Somos uma plataforma multicultural de criatividade que através de eventos e ações, visa fomentar as expressões criativas como um todo, assim como valorizar a experiência de vida e a troca humana em todas suas vertentes!" />
     <title>Encontro de Criadores</title>
     <link rel="apple-touch-icon" sizes="57x57" href="/res/icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/res/icon/apple-icon-60x60.png">

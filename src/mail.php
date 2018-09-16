@@ -15,10 +15,7 @@ $nome = $_POST['nome'];
 $negocio = $_POST['negocio'];
 $email = $_POST['email'];
 $categoria = $_POST['categoria'];
-<<<<<<< HEAD
-$ideia = $_POST=['ideia'];
-=======
->>>>>>> fd65e4305ea41829ee94e7b48bc5ed589263f1ad
+$ideia = $_POST['ideia'];
 
 require_once("../vendor/autoload.php");
 require_once("../vendor/phpmailer/phpmailer/PHPMailerAutoload.php");
