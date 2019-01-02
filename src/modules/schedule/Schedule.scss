@@ -1,0 +1,68 @@
+$primary: #eb1c28;
+$secondary: #f7c90e;
+
+#schedule{
+    background: $primary;
+    padding-bottom: 30px;
+
+    p{
+        font-family: 'SpecialElite-Regular';
+        color: $secondary;
+        font-size: 1.6em;
+        margin: 0;
+        line-height: calc(1em * 1.5);
+        word-break: break-word;
+
+        span{ background: #8e131a; }
+    }
+
+    .header{
+        p{ 
+            text-align: center;
+            padding: 50px 0;
+        }
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+
+        .poster{
+            width: 380px;
+            height: 500px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: top;
+        }
+
+        .day{
+            margin: 0 30px;
+            width: 18vw;
+
+            p{ font-size: 1.2em; }
+        }
+    }
+
+    .action{
+        width: 100%;
+        text-align: center;
+
+        .btn{
+            background: $secondary;
+            color: $primary;
+            border: none;
+            padding: 15px 0;
+            width: 20%;
+            display: block;
+            margin: 0 auto 60px;
+            font-family: 'SpecialElite-Regular';
+            font-size: 1.2em;
+    
+            &:hover{
+                cursor: pointer;
+                animation: ballad .4s ease infinite;
+            }
+        }
+    }
+}

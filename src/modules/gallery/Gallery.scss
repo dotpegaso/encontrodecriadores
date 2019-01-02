@@ -1,0 +1,41 @@
+$primary: #eb1c28;
+$secondary: #f7c90e;
+
+#gallery{
+    background: $primary;
+    padding-bottom: 70px;
+
+    .famous{
+        width: 100%;
+        display: flex;
+        
+        .box{
+            width: calc(100%/5);
+            height: 200px;            
+        }
+    }
+
+    .event{
+        display: flex;
+
+        .box{
+            width: calc(100%/3);
+            height: 350px;
+        }
+    }
+
+    .famous, .event{
+        .box{
+            background: tomato;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+            margin: 5px;
+            border-radius: 20px;
+
+            &:first-of-type{
+                background-position: center;
+            }
+        }
+    }
+}

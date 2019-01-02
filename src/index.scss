@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Nanum-Regular';
+    src: url(./fonts/NanumGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Nanum-Bold';
+    src: url(./fonts/NanumGothic-ExtraBold.ttf);
+}
+
+
+@font-face {
+    font-family: 'SpecialElite-Regular';
+    src: url(./fonts/SpecialElite-Regular.ttf);
+}
+
+
+body{
+    margin: 0;
+
+    &::-webkit-scrollbar { width: 6px; }
+    //track
+    &::-webkit-scrollbar-track { background: #eb1c28;  }
+    //handle bar
+    &::-webkit-scrollbar-thumb { background: #f7c90e; }
+
+    //ios
+    -webkit-overflow-scrolling: touch; 
+    //navegadores que não escondem navbar
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}

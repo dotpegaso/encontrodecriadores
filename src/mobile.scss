@@ -1,0 +1,123 @@
+@media screen and (max-width: 490px){
+    #home{
+        flex-wrap: wrap;
+        height: 100%;
+
+       .intro{
+            .sea .wave{
+                width: 65vw;
+                height: 80vw;
+                top: -25vw;
+                left: auto;
+                right: auto;
+            }
+
+            .header{
+                margin-bottom: 0;
+
+                .icon-logo{
+                    width: 40vw;
+                    height: 40vw;
+                }
+            }
+
+            .first{
+                padding-top: 50px;
+                margin-bottom: 10px;
+            }
+
+            .first, .last{
+                font-size: 6vw;
+            }
+
+            .last{                
+                margin: 20px 0 50px;
+            }
+       }
+
+       .poster{
+            .next-meetup, .meetup-name, .meetup-address, .meetup-time{
+                text-align: center !important;
+                width: 100%;
+                font-size: 5.2vw;
+                width: 100%;
+                max-width: 100%;
+                margin: 20px 0;
+            }
+
+            .meetup-address{
+                text-decoration: underline;
+            }
+       }
+    }
+
+    #schedule{
+
+        .container{
+            flex-wrap: wrap;
+
+            .poster{ background-position: bottom; }
+
+            .day{
+                width: calc(100% - 40px);
+                margin: 30px 0 0;
+                padding: 0 20px;
+            }
+        }
+
+        .action{
+            margin-top: 50px;
+
+            .btn{ width: 60%; }
+        }
+    }
+
+    #about{
+        .container{
+            flex-wrap: wrap;
+            width: 100%;
+
+            .box{
+                width: calc(100% - 80px);
+                text-align: left;
+                padding: 40px;
+             }
+        }
+    }
+
+    #gallery{
+
+        .famous, .event{
+            flex-wrap: wrap;
+
+            .box{ width: 100%; }
+        }
+    }
+
+    #footer{
+        p{ font-sizE: 1.4em; }
+
+        .container{
+            flex-wrap: wrap;
+    
+            img{ 
+                width: 100%; 
+    
+                &:last-of-type{
+                    margin-top: 50px;
+                }
+            }
+        }
+
+        .credits{
+            flex-wrap: wrap;
+            justify-content: flex-start;
+
+            .box{
+                margin: 20px 40px;
+
+                a{width: 70%;}
+             }
+        }
+    }
+}
