@@ -4,9 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-data.json
 config
 scripts
+package-lock.json
+data.json
 
 # testing
 /coverage
