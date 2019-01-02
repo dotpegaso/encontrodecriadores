@@ -71,10 +71,8 @@ $secondary: #f7c90e;
                 padding: 20px;
                 background: #f7c90e;
 
-                @media screen and (max-width: 490px){
-                    position: absolute;
-                    right: 0;
-                }
+                position: absolute;
+                right: 0;
 
                 &:hover{
                     cursor: pointer;
@@ -87,9 +85,7 @@ $secondary: #f7c90e;
                 padding: 0 20px;
                 line-height: 1.4em;
 
-                @media screen and (max-width: 490px){
-                    width: 75%;
-                }
+                width: 75%;
 
                 b,em{
                     position: relative;

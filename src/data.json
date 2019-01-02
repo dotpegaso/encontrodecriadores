@@ -1,44 +1,59 @@
 {
     "evento":{
-       "url_evento_facebook":"google.com",
-       "url_video_promocional":"https://vimeo.com/306665892",
-       "local":"blabla",
+       "url_evento_facebook":"https://www.facebook.com/events/2449999405236446",
+       "url_video_promocional":"306665892",
+       "local":"Rua Luíz Suplicy, 31 - Gonzaga - Santos",
        "data":"15 & 16 DEZ",
-       "nome":"Encontro Pocket",
+       "nome":"Encontro de Criadores Pocket Verão",
        "horario":"14 às 22h",
-       "poster":"http://www.fundasantos.org.br/e107_images/newspost_images/encontro.png",
+       "poster":"https://bit.ly/2BTgeUF",
        "programacao":{
           "15":{
-             "10h":"tal",
-             "12h":"tala",
-             "13h":"tald",
-             "14h":"talc"
-          }
+             "Intervenções artísticas" : "",
+             "Feira Criativa" : "",
+             "Breja Gelada" : "",
+             "Rangos" : "",
+             "Encontros" : "",
+             "Ideias Criativas" : "",
+             "Flash Tattoo" : "",
+             "O dia todo!" : ""
+          },
+          "16":{
+            "Intervenções artísticas" : "",
+            "Feira Criativa" : "",
+            "Breja Gelada" : "",
+            "Rangos" : "",
+            "Encontros" : "",
+            "Ideias Criativas" : "",
+            "Flash Tattoo" : "",
+            "O dia todo!" : ""
+         }
        }
     },
     "organizacao":{
-       "empreendedores":"200",
-       "publico_indireto":"1 Milhão",
-       "publico_direto":"800 mil",
-       "publico_midias_sociais":"1 milhão e 600 mil",
-       "edicoes":"3",
+       "empreendedores":"300",
+       "publico_indireto":"75 mil",
+       "publico_direto":"200 mil",
+       "publico_midias_sociais":"1 milhão",
+       "edicoes":"8",
        "colabs":[
-          "asokdoaskd",
-          "lorem",
-          "oaksd"
+          "Festival Curta Santos",
+          "Festival Santos Café",
+          "Santos Jazz Festival"
        ],
        "paralelos":[
-          "asokdoaskd",
-          "lorem",
-          "oaksd"
+          "Pocket Store",
+          "Cineminha de Leve",
+          "Verão, Vinil e Tattoo",
+          "Feira Aquilo!"
        ],
-       "arrecadacao_direta":"1 milhão",
-       "arrecadacao_indireta":"600 mil",
+       "arrecadacao_direta":"1 milhão e 600 mil",
+       "arrecadacao_indireta":"800 mil",
        "atividades":"200"
     },
     "config":{
-       "instagram_url":"google.com",
-       "facebook_page_url":"google.com",
-       "formspark":"google.com"
+       "instagram_url":"https://www.instagram.com/encontrodecriadores",
+       "facebook_page_url":"https://www.facebook.com/encontrodecriadores",
+       "formspark":"https://submit-form.com/4272a288-05bc-47f8-8669-e179e0123f66"
     }
  }
