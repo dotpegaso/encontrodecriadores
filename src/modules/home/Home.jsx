@@ -9,6 +9,8 @@ import Face from '../../res/common/Face';
 
 const Home = (props) => {
 
+    const vimeo = process.env.VIMEO;
+
     const handleInstagram = () => {
         window.open(
             `${data.config.instagram_url}`,
@@ -74,7 +76,7 @@ const Home = (props) => {
 
                 { data.evento.url_video_promocional && 
                     <div className="video">
-                        <iframe title="preview" src={`https://player.vimeo.com/video/${data.evento.url_video_promocional}`}frameBorder="0"></iframe>
+                        <iframe title="preview" src={`https://player.vimeo.com/video/${vimeo}`}frameBorder="0"></iframe>
                     </div>
                 }
 
