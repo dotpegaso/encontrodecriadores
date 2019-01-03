@@ -46,7 +46,7 @@ const Schedule = () => {
             </div>
             <div className="action">
                 <button className="btn" onClick={handleFacebookEvent}>
-                    <b>BORA COLAR JUNTO?</b>
+                    <b>CHEGA AÍ, COLA MAIS</b>
                 </button>
             </div>
         </section>
