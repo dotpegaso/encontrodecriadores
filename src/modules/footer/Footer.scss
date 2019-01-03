@@ -21,6 +21,7 @@ $secondary: #f7c90e;
     .container{
         padding-top: 70px;
         display: flex;
+        flex-wrap: wrap;
         width: 80%;
         margin: 0 auto;
         align-items: center;
@@ -28,7 +29,11 @@ $secondary: #f7c90e;
 
         img{
             height: initial;
-            width: 30%;
+            width: 40%;
+
+            @media screen and (max-width: 490px){
+                width: 90%;
+            }
         }
     }
 
