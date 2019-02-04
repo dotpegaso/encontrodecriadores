@@ -95,7 +95,7 @@ const Home = (props) => {
                 </p>
 
                 <button className="btn" onClick={handleFacebookEvent}>
-                    <b>VEM TODO MUNDO</b>
+                    <b>MARQUE PRESENÇA</b>
                 </button>
 
            </div>

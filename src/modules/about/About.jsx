@@ -116,6 +116,13 @@ const About = (props) => {
                     </div>
                 </div>
             </div>
+
+            <form action="https://art.us16.list-manage.com/subscribe/post?u=e12e297993805c8d490959b51&amp;id=e8fdb4a991" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="mailchimp validate" target="_blank">
+                <p>Boas novas quentinhas</p>
+                <input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="Digite seu email" required></input>
+                <input type="text" name="b_e12e297993805c8d490959b51_e8fdb4a991" tabIndex="-1" style={{display: 'none'}}></input>
+                <input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" className="button subscribe"></input>
+            </form>
         </section>
     )
 }

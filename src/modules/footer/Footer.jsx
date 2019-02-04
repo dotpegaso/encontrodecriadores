@@ -68,6 +68,7 @@ const Footer = () => {
                     <a href="https://dotpegaso.com.br" target="_blank" rel="noopener noreferrer">Desenvolvido por dotpegaso</a>
                 </div>
             </div>
+
         </section>
     )
 }
