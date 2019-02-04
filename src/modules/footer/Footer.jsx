@@ -11,7 +11,7 @@ import Bujas from '../../res/footer/bujas.png';
 import Janelas from '../../res/footer/janelas.png';
 import Juicy from '../../res/footer/juicy.png';
 import SeloCriativo from '../../res/footer/selocriativo.png';
-import ZeroTreze from '../../res/footer/zerotreze.png';
+import SantosJazz from '../../res/footer/santosjazz.png';
 import Unimonte from '../../res/footer/unimonte.png';
 import Nove from '../../res/footer/nove.png';
 
@@ -35,19 +35,19 @@ const Footer = () => {
         <section id="footer">
 
             <div className="header">
-                <p>Galera que fortalece a cena</p>
+                <p>Colab</p>
             </div>
 
             <div className="container">
+                <a href="https://www.unimonte.br/" target="_blank" rel="noopener noreferrer"><img src={Unimonte} alt=""/>                    </a>
+                <a href="http://revistanove.com.br/" target="_blank" rel="noopener noreferrer"><img src={Nove} alt=""/>     </a>
                 <a href="http://arcanozero.com" target="_blank" rel="noopener noreferrer"><img src={ArcanoZero} alt=""/></a>
                 <a href="https://www.artenodique.org/" target="_blank" rel="noopener noreferrer"><img src={ArteNoDique} alt=""/></a>
-                <a href="https://facebook.com/bujasbar/" target="_blank" rel="noopener noreferrer"><img src={Bujas} alt=""/></a>
-                <a href="http://www.janelas.tv.br/" target="_blank" rel="noopener noreferrer"><img src={Janelas} alt=""/></a>
                 <a href="https://www.juicysantos.com.br/" target="_blank" rel="noopener noreferrer"><img src={Juicy} alt=""/></a>
-                <a href="http://revistanove.com.br/" target="_blank" rel="noopener noreferrer"><img src={Nove} alt=""/>     </a>
+                <a href="http://www.janelas.tv.br/" target="_blank" rel="noopener noreferrer"><img src={Janelas} alt=""/></a>
+                <a href="https://facebook.com/bujasbar/" target="_blank" rel="noopener noreferrer"><img src={Bujas} alt=""/></a>
                 <a href="https://www.selocriativo.com/" target="_blank" rel="noopener noreferrer"><img src={SeloCriativo} alt=""/></a>
-                <a href="http://revistazerotreze.com.br/" target="_blank" rel="noopener noreferrer"><img src={ZeroTreze} alt=""/></a>
-                <a href="https://www.unimonte.br/" target="_blank" rel="noopener noreferrer"><img src={Unimonte} alt=""/>                    </a>
+                <a href="https://www.santosjazzfestival.com.br/" target="_blank" rel="noopener noreferrer"><img src={SantosJazz} alt=""/></a>
             </div>
 
             <div className="credits">

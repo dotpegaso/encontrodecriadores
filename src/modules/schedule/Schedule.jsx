@@ -23,6 +23,12 @@ const Schedule = () => {
             </div>
             <div className="container">
 
+                <div className="sea">
+                    <span className="wave"></span>
+                    <span className="wave"></span>
+                    <span className="wave"></span>
+                </div>
+
                 <div className="poster" style={{backgroundImage : `url(${data.evento.poster})`}}></div>
 
                 {datas.map((D, key) => (

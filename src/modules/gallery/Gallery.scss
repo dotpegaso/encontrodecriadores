@@ -32,10 +32,26 @@ $secondary: #f7c90e;
             background-position: top;
             margin: 5px;
             border-radius: 20px;
+            transition-duration: .2s;
 
             &:first-of-type{
                 background-position: center;
             }
+
+            @for $i from 1 through 8 {
+                &:nth-of-type(#{$i}){
+                    animation: randomBlendMode $i*2.256s ease infinite;                    
+                }
+            }
         }
+    }
+}
+
+@keyframes randomBlendMode{
+    0%{
+        background-blend-mode: luminosity;
+    }
+    50%{
+        background-blend-mode: initial;
     }
 }
