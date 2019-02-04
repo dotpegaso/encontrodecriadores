@@ -28,8 +28,6 @@ $secondary: #f7c90e;
         padding: 15px 0;
         margin: 2.5vw 0;
         width: 100%;
-        opacity: 0;
-        @include fade(40px, .4s, 1.8s);
 
         &:hover{
             cursor: pointer;
