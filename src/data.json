@@ -30,6 +30,12 @@
          }
        }
     },
+    "calendario":[
+      { "nome": "Encontro de Criadores 9", "data": "08 e 09 de Junho/2019" },
+      { "nome": "Colab - Santos Jazz Festival", "data": "26, 27 e 28 de Julho/2019"},
+      { "nome": "Encontro de Criadores 10", "data": "07 e 08 de Dezembro"},
+      { "nome": "+++ surpresinhas durante o ano", "data": ""}
+    ],
     "organizacao":{
        "empreendedores":"300",
        "publico_indireto":"75 mil",
@@ -52,6 +58,7 @@
        "atividades":"200"
     },
     "config":{
+       "evento_ativo": false,
        "instagram_url":"https://www.instagram.com/encontrodecriadores",
        "facebook_page_url":"https://www.facebook.com/encontrodecriadores",
        "formspark":"https://submit-form.com/4272a288-05bc-47f8-8669-e179e0123f66"

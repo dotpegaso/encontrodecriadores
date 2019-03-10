@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.scss';
+import Evento from './Evento';
+import Calendario from './Calendario';
 import data from '../../data.json';
 
 import Logo from '../../res/home/Logo';
@@ -34,6 +36,15 @@ const Home = (props) => {
         window.open(
             `https://www.google.com/maps/place/${data.evento.local}`, '_blank'
         )
+    }
+
+    const loadContent = () =>{
+        
+        if(data.config.evento_ativo){
+            return <Evento data={data} handleMaps={handleMaps} handleFacebookEvent={handleFacebookEvent} />
+        }else{
+            return <Calendario data={data} />
+        }
     }
     
     return(
@@ -72,31 +83,7 @@ const Home = (props) => {
 
            <div className="poster">
 
-                { data.evento.url_video_promocional && 
-                    <div className="video">
-                        <iframe title="preview" src={`https://player.vimeo.com/video/${data.evento.url_video_promocional}`}frameBorder="0"></iframe>
-                    </div>
-                }
-
-                <p className="next-meetup">
-                    Próximo encontro - <b>{data.evento.data}</b>
-                </p>
-
-                <p className="meetup-name">
-                    <span>{data.evento.nome}</span>
-                </p>
-
-                <p className="meetup-address" onClick={handleMaps}>
-                    {data.evento.local}
-                </p>
-
-                <p className="meetup-time">
-                    {data.evento.horario}
-                </p>
-
-                <button className="btn" onClick={handleFacebookEvent}>
-                    <b>MARQUE PRESENÇA</b>
-                </button>
+                { loadContent() }
 
            </div>
 

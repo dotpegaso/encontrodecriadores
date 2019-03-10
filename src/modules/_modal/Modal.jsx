@@ -28,6 +28,9 @@ const Modal = (props) => {
                         <label htmlFor="idea">Site ou Rede Social da sua ideia/produto</label>
                         <input type="text" id="idea" name="Site/Rede Social" required/>
 
+                        <label htmlFor="images">Link para imagens do seu produto (Insta, Face etc)</label>
+                        <input type="text" id="images" name="Imagens do Produto" required/>
+
                         <label htmlFor="category">Sua categoria</label>
                         <select id="category" name="Categoria" required>
                             <option value="arte">Arte</option>

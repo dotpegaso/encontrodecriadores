@@ -54,6 +54,7 @@ $secondary: #f7c90e;
 
             &:nth-child(1){
                 animation: fadeInUp .6s ease forwards;
+                background-color: #f6c80e;
 
                 @media screen and (max-width: 490px){
                     display: none;

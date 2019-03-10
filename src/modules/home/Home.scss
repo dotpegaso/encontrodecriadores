@@ -60,7 +60,7 @@ $secondary: #f7c90e;
         .sea{
             pointer-events: none;
             position: absolute;
-            top: -4%;
+            top: 5%;
             left: 15%;
             opacity: .8;
 
@@ -136,63 +136,113 @@ $secondary: #f7c90e;
 
     .poster{
         
-        .video{
-            width: 100%;
-            height: 35vh;
-            margin-bottom: 40px;
-            opacity: 0;
-            @include fade(40px, .4s, 2s);
-            
-
-            iframe{ 
+       .evento{
+            .video{
                 width: 100%;
-                height: 100%;
-                border: 3px solid $secondary;
-                border-radius: 6px;
-            }
-        }
+                height: 35vh;
+                margin-bottom: 40px;
+                opacity: 0;
+                @include fade(40px, .4s, 2s);                
 
-        .next-meetup{
-            text-align: right;
-            font-size: 1.8vw;
+                iframe{ 
+                    width: 100%;
+                    height: 100%;
+                    border: 3px solid $secondary;
+                    border-radius: 6px;
+                }
+            }
+
+            .next-meetup{
+                text-align: right;
+                font-size: 1.8vw;
+                opacity: 0;
+                @include fade(40px, .4s, 1s);
+                
+                b{background: #8e131a;}
+            }
+
+            .meetup-name{
+                font-size: 2vw;
+                margin-top: 20px;
+                max-width: 30vw;
+                opacity: 0;
+                @include fade(40px, .4s, 1.2s);
+
+                span{ background: #8e131a; }
+            }
+
+            .meetup-address{
+                text-align: right;
+                margin: 20px 0;
+                opacity: 0;
+                @include fade(40px, .4s, 1.3s);
+                
+                &:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+
+            .meetup-time{
+                font-size: 3vw;
+                opacity: 0;
+                @include fade(40px, .4s, 1.5s);
+            }
+
+            .btn{
+                width: 60%;
+                display: block;
+                margin: 40px auto 0;
+            }
+       }
+
+       .calendario{
+            width: 28vw;
+
+        .disclaimer{
+            font-size: 2vw;
+            margin: 50px 0;
             opacity: 0;
             @include fade(40px, .4s, 1s);
-            
-            b{background: #8e131a;}
-        }
 
-        .meetup-name{
-            font-size: 2vw;
-            margin-top: 20px;
-            max-width: 30vw;
-            opacity: 0;
-            @include fade(40px, .4s, 1.2s);
-
-            span{ background: #8e131a; }
-        }
-
-        .meetup-address{
-            text-align: right;
-            margin: 20px 0;
-            opacity: 0;
-            @include fade(40px, .4s, 1.3s);
-            
-            &:hover{
-                text-decoration: underline;
-                cursor: pointer;
+            .calendar{
+                font-size: 8vw;
+                margin: 0 auto;
+                width: 100%;
+                display: block;
+                text-align: center;
+                opacity: 0;
+                @include fade(40px, .4s, 1.2s);
             }
         }
 
-        .meetup-time{
-            font-size: 3vw;
-            opacity: 0;
-            @include fade(40px, .4s, 1.5s);
+        .evento{
+            padding: 10px;
+            margin: 15px 0;        
+
+            &:nth-child(even){
+                background: #8E131A;
+                opacity: 0;
+                @include fade(40px, .4s, 1.4s);
+            }
+
+            &:nth-child(odd){
+                opacity: 0;
+                @include fade(40px, .4s, 1.5s);
+            }
+
+            p:first-of-type{
+                font-size: 1.4em;
+            }
+
+            p:last-of-type{
+                text-align: right;
+                color: #FFF;
+                margin-top: 5px;
+                font-size: 1em;
+            }
         }
 
-        .btn{
-            width: 60%;
-            display: block;
-            margin: 40px auto 0;
-        }
+       }
     }
 }

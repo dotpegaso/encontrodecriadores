@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import './sass/index.scss';
 
+import data from './data.json';
+
 import Modal from './modules/_modal/Modal';
 import Home from './modules/home/Home';
 import Schedule from './modules/schedule/Schedule';
@@ -27,7 +29,7 @@ class App extends Component{
         return(
             <div>
                 <Home modal={this.handleModal} />
-                <Schedule />
+                { data.config.evento_ativo && <Schedule /> }
                 <About modal={this.handleModal} />
                 <Gallery />
                 <Footer />
