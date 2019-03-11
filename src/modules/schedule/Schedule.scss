@@ -39,6 +39,10 @@ $secondary: #f7c90e;
             opacity: .8;
             z-index: -9;
 
+            @media screen and (max-width: 490px){
+                display: none;
+            }
+
             .wave {
                 position: absolute;
                 top: -60px;

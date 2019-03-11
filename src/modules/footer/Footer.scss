@@ -27,7 +27,13 @@ $secondary: #f7c90e;
         align-items: center;
         justify-content: center;
 
-        a{ width: calc(100%/5); }
+        a{ 
+            width: calc(100%/5);
+
+            @media screen and (max-width: 490px){
+                width: 50%;
+            }
+         }
 
         img{
             height: initial;

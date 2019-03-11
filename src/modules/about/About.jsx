@@ -20,6 +20,9 @@ const About = (props) => {
     
     return(
         <section id="about">
+            <div className="header">
+                <p>Saca só <b>o que é</b> o nosso rolê</p>
+            </div>
             <div className="container">
                 
                 <div className="box">
