@@ -11,7 +11,7 @@ const Calendario = ({data}) => (
             }
         
         <p className="disclaimer">
-            Fica ligado nos próximos rolês pra marcar presença
+            Se liga nos próximos rolês!
         </p>
 
         {
