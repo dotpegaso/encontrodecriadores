@@ -37,7 +37,7 @@ $secondary: #f7c90e;
 
     .content{
         width: 60vw;
-        height: 85vh;
+        height: 90vh;
         display: flex;
 
         @media screen and (max-width: 490px){
@@ -70,7 +70,7 @@ $secondary: #f7c90e;
                 margin: 0 0 0 auto;
                 display: block;
                 padding: 20px;
-                background: #f7c90e;
+                background: $primary;
 
                 position: absolute;
                 right: 0;
@@ -131,8 +131,8 @@ $secondary: #f7c90e;
 
                 button{
                     font-family: 'Nanum-Regular';
-                    background: $primary;
-                    color: $secondary;
+                    background: $secondary;
+                    color: $primary;
                     border: none;
                     width: 50%;
                     display: block;
