@@ -199,11 +199,20 @@ $secondary: #f7c90e;
        .calendario{
             width: 28vw;
 
+            @media screen and (max-width: 490px) {
+                width: calc(100% - 40px);
+                padding: 0 20px;
+            }
+
         .disclaimer{
             font-size: 2vw;
             margin: 50px 0;
             opacity: 0;
             @include fade(40px, .4s, 1s);
+
+            @media screen and (max-width: 490px) {
+                font-size: 6vw;
+            }
 
             .calendar{
                 font-size: 8vw;
@@ -213,6 +222,10 @@ $secondary: #f7c90e;
                 text-align: center;
                 opacity: 0;
                 @include fade(40px, .4s, 1.2s);
+
+                @media screen and (max-width: 490px) {
+                    font-size: 25vw;
+                }
             }
         }
 
