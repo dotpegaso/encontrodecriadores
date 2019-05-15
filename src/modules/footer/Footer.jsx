@@ -56,7 +56,7 @@ const Footer = () => {
                 </div>
                 <div className="box">
                     <p>CONTATO_</p>
-                    <a href="mailto:encontrodecriadores.adm@gmail.com">{`encontrodecriadores.adm@gmail.com`}</a>
+                    <a href="mailto:contato@encontrodecriadores.art">{`contato@encontrodecriadores.art`}</a>
                 </div>
                 <div className="box">
                     <p>SOCIAL_</p>
