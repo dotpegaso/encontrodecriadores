@@ -138,6 +138,7 @@ $secondary: #f7c90e;
 
         .evento,
         .calendario{
+            width: 28vw;
             
             .video{
                 width: 100%;
@@ -149,7 +150,6 @@ $secondary: #f7c90e;
                 iframe{ 
                     width: 100%;
                     height: 100%;
-                    border: 3px solid $secondary;
                     border-radius: 6px;
                 }
             }
@@ -202,8 +202,6 @@ $secondary: #f7c90e;
        }
 
        .calendario{
-            width: 28vw;
-
             @media screen and (max-width: 490px) {
                 width: calc(100% - 40px);
                 padding: 0 20px;

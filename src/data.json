@@ -1,11 +1,11 @@
 {
     "evento":{
-       "url_evento_facebook":"https://www.facebook.com/events/2449999405236446",
-       "url_video_promocional":"306665892",
-       "local":"Rua Luíz Suplicy, 31 - Gonzaga - Santos",
-       "data":"15 & 16 DEZ",
-       "nome":"Encontro de Criadores Pocket Verão",
-       "horario":"14 às 22h",
+       "url_evento_facebook":"https://www.facebook.com/events/498478650919245/",
+       "url_video_promocional":"346032206",
+       "local":"Arcos do Valongo - Santos/SP",
+       "data":"17 & 18 AGOSTO",
+       "nome":"Encontro de Criadores #9 | Calor do Futuro",
+       "horario":"14h às 00h",
        "poster":"https://bit.ly/2BTgeUF",
        "programacao":{
           "15":{
@@ -58,7 +58,7 @@
        "atividades":"200"
     },
     "config":{
-       "evento_ativo": false,
+       "evento_ativo": true,
        "instagram_url":"https://www.instagram.com/encontrodecriadores",
        "facebook_page_url":"https://www.facebook.com/encontrodecriadores",
        "formspark":"https://submit-form.com/4272a288-05bc-47f8-8669-e179e0123f66"
