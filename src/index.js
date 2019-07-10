@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import * as serviceWorker from './serviceWorker';
-import './sass/index.scss';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+import * as serviceWorker from './serviceWorker'
+import './sass/index.scss'
 
-import data from './data.json';
+import data from './data.json'
 
-import Modal from './modules/_modal/Modal';
-import Home from './modules/home/Home';
-import Schedule from './modules/schedule/Schedule';
-import About from './modules/about/About';
-import Gallery from './modules/gallery/Gallery';
-import Footer from './modules/footer/Footer';
-import './mobile.scss';
-
+import Modal from './modules/_modal/Modal'
+import Home from './modules/home/Home'
+import Agenda from './modules/agenda/Agenda'
+import Schedule from './modules/schedule/Schedule'
+import About from './modules/about/About'
+import Gallery from './modules/gallery/Gallery'
+import Footer from './modules/footer/Footer'
+import './mobile.scss'
 
 class App extends Component{
     state = {
@@ -29,7 +29,12 @@ class App extends Component{
         return(
             <div>
                 <Home modal={this.handleModal} />
-                { data.config.evento_ativo && <Schedule /> }
+                { data.config.evento_ativo && 
+                <div>
+                    <Schedule />
+                    <Agenda />
+                </div>
+                }
                 <About modal={this.handleModal} />
                 <Gallery />
                 <Footer />
@@ -39,9 +44,5 @@ class App extends Component{
     }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<App />, document.getElementById('root'))
+serviceWorker.unregister()

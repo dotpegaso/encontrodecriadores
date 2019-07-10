@@ -1,0 +1,64 @@
+$primary: #eb1c28;
+$secondary: #f7c90e;
+
+@import "../../sass/animations";
+
+.agenda{
+    margin: 0 auto;
+    text-align: center;
+    background: $primary;
+
+    p, .btn{
+        font-family: 'SpecialElite-Regular';
+        color: $secondary;
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    p{ cursor: default; }
+    
+    @media screen and (max-width: 490px) {
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+
+    .disclaimer{
+        padding-top: 50px;
+        font-size: 3vw;
+        opacity: 0;
+        @include fade(40px, .4s, 1s);
+
+        span{
+            background-color: #8e131a;
+        }
+
+        @media screen and (max-width: 490px) {
+            font-size: 6vw;
+        }
+    }
+
+    .evento{
+        width: 40vw;
+        margin: 30px auto 0 auto;
+        display: block;
+        padding: 10px;       
+
+        &:nth-child(odd),
+        &:nth-child(even){
+            opacity: 0;
+            @include fade(40px, .4s, 1.4s);
+        }
+
+        p:first-of-type{
+            font-size: 1.8em;
+        }
+
+        p:last-of-type{
+            text-align: right;
+            color: #FFF;
+            margin-top: 5px;
+            font-size: 1em;
+        }
+    }
+
+}
