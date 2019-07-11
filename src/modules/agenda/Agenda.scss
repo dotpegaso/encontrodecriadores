@@ -41,7 +41,9 @@ $secondary: #f7c90e;
         width: 40vw;
         margin: 30px auto 0 auto;
         display: block;
-        padding: 10px;       
+        padding: 10px;
+
+        
 
         &:nth-child(odd),
         &:nth-child(even){
@@ -59,6 +61,17 @@ $secondary: #f7c90e;
             margin-top: 5px;
             font-size: 1em;
         }
+
+        @media screen and (max-width: 490px){
+            width: 100%;
+            padding: 10px 0;
+            
+            p{
+                text-align: center !important;
+            }
+        }
+
+
     }
 
 }

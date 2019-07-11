@@ -57,6 +57,11 @@ $secondary: #f7c90e;
 
     .intro{
 
+        @media screen and (max-width: 490px){
+            width: 100%;
+            padding: 0 20px;
+        }
+
         .sea{
             pointer-events: none;
             position: absolute;
@@ -139,6 +144,10 @@ $secondary: #f7c90e;
         .evento,
         .calendario{
             width: 28vw;
+
+            @media screen and (max-width: 490px){
+                width: 100%;
+            }
             
             .video{
                 width: 100%;
@@ -198,6 +207,17 @@ $secondary: #f7c90e;
                 width: 60%;
                 display: block;
                 margin: 40px auto 0;
+            }
+
+            @media screen and (max-width: 490px){
+                .next-meetup,
+                .meetup-name,
+                .meetup-address,
+                .meetup-time{
+                    font-size: 6vw;
+                    width: 100%;
+                    max-width: 100%;
+                }
             }
        }
 
