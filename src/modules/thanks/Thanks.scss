@@ -1,0 +1,93 @@
+$primary: #eb1c28;
+$secondary: #f7c90e;
+
+@import "../../sass/animations";
+
+#thanks{
+    height: 100vh;
+    background: $primary;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    position: relative;
+
+    @media screen and (max-width: 490px){
+        height: 100%;
+    }
+
+    p, .btn, h3, ul{
+        font-family: 'SpecialElite-Regular';
+        color: $secondary;
+        font-size: 1.2em;
+        margin: 0;
+        display: block;
+        cursor: default;
+    }
+
+    p{ cursor: default; }
+
+    .btn{
+        background: $secondary;
+        color: $primary;
+        border: none;
+        padding: 15px 0;
+        margin: 2.5vw 0;
+        width: 100%;
+
+        &:hover{
+            cursor: pointer;
+            animation: ballad .4s ease infinite;
+        }
+    }
+
+    .logo{
+        .icon-logo{
+            width: 20vw;
+            height: 20vw;
+            margin: 0 40px;
+            animation: none !important;
+            cursor: default !important;
+        }
+
+        @media screen and (max-width: 490px){
+            width: 100%;
+            display: flex;
+            justify-content: center; 
+
+            .icon-logo{
+                width: 20vh;
+                height: 20vh;
+                margin: 0 auto
+            }
+        }
+    }
+
+    .disclaimer, .list, .result, .info{
+        width: 60%;
+        display: block;
+        margin: 0;
+        margin: 10px 0;
+        line-height: 1.3em;
+        padding: 0;
+
+        @media screen and (max-width: 490px){
+            width: 100%;
+            padding: 0 20px;
+        }
+    }
+
+    .list{
+        span{ background: #8e131a }
+        font-size: 1.3em;
+        list-style: decimal;
+    }
+
+    h3, .result{
+        margin: 40px 0;
+        font-size: 36px;
+    }
+
+
+}

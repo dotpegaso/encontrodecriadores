@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route } from "react-router-dom"
 import * as serviceWorker from './serviceWorker'
 import './sass/index.scss'
 
@@ -12,6 +13,7 @@ import Schedule from './modules/schedule/Schedule'
 import About from './modules/about/About'
 import Gallery from './modules/gallery/Gallery'
 import Footer from './modules/footer/Footer'
+import Thanks from './modules/thanks/Thanks'
 import './mobile.scss'
 
 class App extends Component{
@@ -24,22 +26,31 @@ class App extends Component{
         this.setState({showModal : !showModal})
     }
 
-    render(){
+    Landing = () => {
         let { showModal } = this.state;
         return(
+        <React.Fragment>
+            <Home modal={this.handleModal} />
+            { data.config.evento_ativo && 
             <div>
-                <Home modal={this.handleModal} />
-                { data.config.evento_ativo && 
-                <div>
-                    <Schedule />
-                    <Agenda />
-                </div>
-                }
-                <About modal={this.handleModal} />
-                <Gallery />
-                <Footer />
-                {showModal && <Modal modal={this.handleModal}/>} 
+                <Schedule />
+                <Agenda />
             </div>
+            }
+            <About modal={this.handleModal} />
+            <Gallery />
+            <Footer />
+            {showModal && <Modal modal={this.handleModal}/>} 
+        </React.Fragment>
+        )
+    }
+
+    render(){        
+        return(
+            <Router>
+                <Route path="/" exact component={this.Landing} />
+                <Route path="/thanks" exact component={Thanks} />                
+            </Router>
         )
     }
 }

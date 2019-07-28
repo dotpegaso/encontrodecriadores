@@ -14,6 +14,7 @@ const About = (props) => {
         let diff = (new Date().getTime() - new Date('09/19/2015').getTime()) / 1000;
         diff /= (60 * 60 * 24);
         return Math.abs(Math.round(diff/365.25));
+
     }
 
     let yearsAgo = yearDiff();

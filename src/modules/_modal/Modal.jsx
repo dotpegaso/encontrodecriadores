@@ -17,7 +17,6 @@ const Modal = (props) => {
                     Envie sua <em>ideia/marca/produto</em> criativo que entraremos em contato!
                     </p>
                     <form action={data.config.formspark}>
-                        <input type="checkbox" name="_honeypot" style={{ display: "none" }} tabindex="-1" autocomplete="off" />
 
                         <label htmlFor="name">Seu nome</label>
                         <input type="text" id="name" name="Nome" required/>
@@ -45,6 +44,18 @@ const Modal = (props) => {
                         <textarea id="description" name="Descrição" cols="30" rows="5" required></textarea>
 
                         <button type="submit">Enviar</button>
+
+                        <input
+                            type="hidden"
+                            name="_redirect"
+                            value={`${window.location.host}/thanks`} />
+
+                        <input 
+                            type="checkbox" 
+                            name="_honeypot" 
+                            style={{ display: "none" }} 
+                            tabindex="-1" 
+                            autocomplete="off" />
                     </form>
                 </div>
             </div>
