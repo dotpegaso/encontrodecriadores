@@ -5,28 +5,25 @@
        "local":"Arcos do Valongo - Santos/SP",
        "data":"17 & 18 AGOSTO",
        "nome":"Encontro de Criadores #9 | Calor do Futuro",
-       "horario":"",
+       "horario":"(17) 14h às 02h - (18) 14h às 00h",
        "poster":"https://bit.ly/2BTgeUF",
        "programacao":{
-          "15":{
-             "Intervenções artísticas" : "",
-             "Feira Criativa" : "",
-             "Breja Gelada" : "",
-             "Rangos" : "",
-             "Encontros" : "",
-             "Ideias Criativas" : "",
-             "Flash Tattoo" : "",
-             "O dia todo!" : ""
+          "17":{
+             "14h" : "Abertura",
+             "16h" : "Cigano + Cássio Peixoto",
+             "17h30" : "Manacá me viu pequena",
+             "19h" : "Intervenção Companhia Aplauso Contemporânea",
+             "19h30" : "Judas no Deserto",
+             "21h30" : "Vibehouse",
+             "23h30" : "CÉU + dj Beto Machado"
           },
-          "16":{
-            "Intervenções artísticas" : "",
-            "Feira Criativa" : "",
-            "Breja Gelada" : "",
-            "Rangos" : "",
-            "Encontros" : "",
-            "Ideias Criativas" : "",
-            "Flash Tattoo" : "",
-            "O dia todo!" : ""
+          "18":{
+            "14h" : "Abertura",
+            "16h" : "Rachell Luz",
+            "17h30" : "João Perreka e os Alambiques",
+            "19h" : "Intervenção Companhia Aplauso Contemporânea",
+            "19h30" : "ZIMBRA",
+            "21h30" : "2d1 + dj Roberta Buongermino "
          }
        }
     },

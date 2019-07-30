@@ -198,7 +198,7 @@ $secondary: #f7c90e;
             }
 
             .meetup-time{
-                font-size: 3vw;
+                font-size: 2vw;
                 opacity: 0;
                 @include fade(40px, .4s, 1.5s);
             }
