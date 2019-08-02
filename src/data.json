@@ -15,7 +15,11 @@
              "19h" : "Intervenção Companhia Aplauso Contemporânea",
              "19h30" : "Judas no Deserto",
              "21h30" : "Vibehouse",
-             "23h30" : "CÉU + dj Beto Machado"
+             "23h30" : "CÉU",
+             "INTERVALOS COM" : "dj Beto Machado",
+             "- TROCANDO IDEIAS": "",
+             "14:30 às 16:30h" : "Design além do gráfico",
+             "17:00 às 19h" : "Music branding"
           },
           "18":{
             "14h" : "Abertura",
@@ -23,13 +27,16 @@
             "17h30" : "João Perreka e os Alambiques",
             "19h" : "Intervenção Companhia Aplauso Contemporânea",
             "19h30" : "ZIMBRA",
-            "21h30" : "2d1 + dj Roberta Buongermino "
+            "21h30" : "2d1",
+            "INTERVALOS COM" : "dj Roberta Buongermino",
+            "- TROCANDO IDEIAS": "",
+             "14:30 às 16:30h" : "Diversidade no empreendedorismo criativo",
+             "17:00 às 19h" : "Cidades ou pessoas criativas?"
          }
        }
     },
     "calendario":[
       { "nome": "Encontro de Criadores 9 - Calor do Futuro", "data": "17 e 18 de Agosto/2019 @ Arcos do Valongo" },
-      { "nome": "Colab - Santos Jazz Festival", "data": "26, 27 e 28 de Julho/2019 @ Arcos do Valongo"},
       { "nome": "Encontro de Criadores 10", "data": "07 e 08 de Dezembro"},
       { "nome": "+++ surpresinhas durante o ano", "data": ""}
     ],
