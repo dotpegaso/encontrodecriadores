@@ -1,13 +1,13 @@
 {
     "evento":{
-       "url_evento_facebook":"https://www.sympla.com.br/encontro-de-criadores-9--calor-do-futuro__594021",
+       "url_evento_facebook":"https://www.facebook.com/encontrodecriadores/",
        "url_video_promocional":"346032206",
-       "url_sympla": "https://www.sympla.com.br/encontro-de-criadores-9--calor-do-futuro__594021",
-       "local":"Arcos do Valongo - Santos/SP",
-       "data":"17 & 18 AGOSTO",
-       "nome":"Encontro de Criadores #9 | Calor do Futuro",
-       "horario":"(17) 14h às 02h - (18) 14h às 00h",
-       "poster":"https://i.ibb.co/2YRnypp/photo5089233695835007215.jpg",
+       "url_sympla": "https://www.facebook.com/encontrodecriadores/",
+       "local":"Porto Sahy - São Sebastião/SP",
+       "data":"13 DEZ - 12 JAN/2020",
+       "nome":"Encontro de Criadores | Casa Verão",
+       "horario":"24h - TODOS OS DIAS",
+       "poster":"https://i.ibb.co/X7Vf7fJ/aaa.jpg",
        "programacao":{
           "17":{
              "14h" : "Abertura",
@@ -38,7 +38,7 @@
     },
     "calendario":[
       { "nome": "Encontro de Criadores 9 - Calor do Futuro", "data": "17 e 18 de Agosto/2019 @ Arcos do Valongo" },
-      { "nome": "Encontro de Criadores 10", "data": "07 e 08 de Dezembro"},
+      { "nome": "Casa Verão", "data": "13 de Dezembro - 12 de Janeiro/2020"},
       { "nome": "+++ surpresinhas durante o ano", "data": ""}
     ],
     "organizacao":{
@@ -64,6 +64,7 @@
     },
     "config":{
        "evento_ativo": true,
+       "schedule": false,
        "instagram_url":"https://www.instagram.com/encontrodecriadores",
        "facebook_page_url":"https://www.facebook.com/encontrodecriadores",
        "formspark":"https://submit-form.com/4272a288-05bc-47f8-8669-e179e0123f66"

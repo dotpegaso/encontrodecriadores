@@ -31,7 +31,7 @@ class App extends Component{
         return(
         <React.Fragment>
             <Home modal={this.handleModal} />
-            { data.config.evento_ativo && 
+            { data.config.evento_ativo && data.config.schedule &&
             <div>
                 <Schedule />
                 <Agenda />
